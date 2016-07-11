@@ -1,0 +1,10 @@
+// Les crédits pour la traduc fr. Normalement on a besoin de 2 champs, sauf
+// qu'on ne peut pas en ajouter apparemment, donc obligé de choisir un truc
+// qui a l'air inutilisé dans les chaines ! 1212 et 1213 sont vides, donc
+// normalement inutilisés, faudra peut-être changer 1 jour !
+@1212 = ~Traduction française à partir de ToB original
+
+Inclut le patch correctif des textes pour Baldur's gate 2 (et ToB) version 1.2 (de la couronne de cuivre)
+Tout ça reconstruit à partir d'un filtre par Isaya qui a aussi fait le weidu d'installation
+du perl et des modifs par zelurker (du forum Beamdog).~
+@1213 = ~[French notes]~

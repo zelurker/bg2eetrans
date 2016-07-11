@@ -44,3 +44,9 @@ INCLUDE  ~bg2eetrans/bgee.tph~
 
 // Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
 INCLUDE ~bg2eetrans/bgee_manual.tph~
+
+// Crédits pour la traduc fr
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/traduc.tra~
+	STRING_SET ~1212~ @1212
+	STRING_SET ~1213~ @1213
+

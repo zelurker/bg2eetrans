@@ -27,7 +27,7 @@ LANGUAGE ~Francais~
          ~bg2eetrans/language/fr_FR/setup.tra~
 
 
-// Initialisation 
+// Initialisation
 BEGIN @1000001
 
 // We need BG2EE and we don't want to overwrite any official translation.
@@ -49,7 +49,7 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~ ) THEN BEGIN
 	// Add the chosen language to BG2EE
 	COPY_EXISTING ~BGEE.lua~ ~override/BGEE.lua~
 		REPLACE_TEXTUALLY ~	{'en_US', 99385, 99386, 'English'},~ ~	{'en_US', 99385, 99386, 'English'},
-	{'fr_FR', 99385, 99386, 'Français'},~
+	{'fr_FR', 1212, 1213, 'Français'},~
 		UNLESS ~'fr_FR'~
 	// Add the translated interface file
 	COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
@@ -73,5 +73,5 @@ END
 
 // Run the installation in the selected language
 // Note: no auto update since it may trigger an error message and running the current tp2 should already have done it anyway
-AT_INTERACTIVE_EXIT ~setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 --language %NUMLANG% --noautoupdate~
+AT_INTERACTIVE_EXIT ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 --language %NUMLANG% --noautoupdate~
 

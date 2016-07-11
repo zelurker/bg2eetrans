@@ -1,5 +1,7 @@
 // Recovered for dialogEnBG2EEpatch20131121_corrige.tra, from dialogToBFrcorrige1.2_objetUTF8.tra
 // Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
+// 199 : édité à la main
+	STRING_SET ~199~  @199
 	STRING_SET ~2843~  @2843
 	STRING_SET ~20044~ @20044
 	STRING_SET ~20059~ @20059
