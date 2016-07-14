@@ -872,7 +872,7 @@
 	STRING_SET ~871~ @871
 	STRING_SET ~872~ @872
 	STRING_SET ~873~ @873
-//	STRING_SET ~874~ @874	// Likeliness 84.8
+	STRING_SET ~874~ @874
 	STRING_SET ~875~ @875	// Exact match
 	STRING_SET ~876~ @876	// Exact match
 	STRING_SET ~877~ @877	// Exact match
@@ -1210,8 +1210,8 @@
 	STRING_SET ~1209~ @1209	// Exact match
 	STRING_SET ~1210~ @1210	// Exact match
 	STRING_SET ~1211~ @1211	// Exact match
-//	STRING_SET ~1212~ @30	// Exact match
-//	STRING_SET ~1213~ @30	// Exact match
+//	STRING_SET ~1212~ @30	// 1212 & 1213 : crédits de la traduc (bgeetransinstall.tp2)
+//	STRING_SET ~1213~ @30
 	STRING_SET ~1214~ @30	// Exact match
 	STRING_SET ~1215~ @30	// Exact match
 	STRING_SET ~1216~ @30	// Exact match
@@ -1389,7 +1389,7 @@
 	STRING_SET ~1388~ @1388	// Exact match
 	STRING_SET ~1389~ @1389	// Exact match
 	STRING_SET ~1390~ @1390	// Exact match
-//	STRING_SET ~1391~ @1391	// Likeliness 87.2
+	STRING_SET ~1391~ @1391
 	STRING_SET ~1392~ @1392	// Exact match
 	STRING_SET ~1393~ @1393	// Very likely 96.6
 	STRING_SET ~1394~ @1394	// Exact match
@@ -1400,7 +1400,7 @@
 	STRING_SET ~1399~ @1399	// Exact match
 	STRING_SET ~1400~ @1400	// Exact match
 	STRING_SET ~1401~ @1401	// Exact match
-//	STRING_SET ~1402~ @1402	// Likeliness 87.4
+	STRING_SET ~1402~ @1402	// Likeliness 87.4
 	STRING_SET ~1403~ @1403	// Exact match
 	STRING_SET ~1404~ @1404	// Exact match
 	STRING_SET ~1405~ @1405	// Exact match
@@ -1956,7 +1956,7 @@
 	STRING_SET ~1955~ @1955	// Exact match
 	STRING_SET ~1956~ @1956	// Exact match
 	STRING_SET ~1957~ @1957	// Exact match
-//	STRING_SET ~1958~ @1958	// Likeliness 86.3
+	STRING_SET ~1958~ @1958
 	STRING_SET ~1959~ @1959	// Exact match
 	STRING_SET ~1960~ @1960	// Exact match
 	STRING_SET ~1961~ @1961	// Exact match
@@ -2746,7 +2746,7 @@
 	STRING_SET ~2745~ @2745	// Exact match
 	STRING_SET ~2746~ @2746	// Exact match
 	STRING_SET ~2747~ @2747	// Exact match
-//	STRING_SET ~2748~ @2748	// Likeliness 82.5
+	STRING_SET ~2748~ @2748
 	STRING_SET ~2749~ @2749	// Exact match
 	STRING_SET ~2750~ @2750	// Exact match
 	STRING_SET ~2751~ @2751	// Exact match
@@ -2841,7 +2841,7 @@
 	STRING_SET ~2840~ @2840	// Exact match
 	STRING_SET ~2841~ @2841	// Exact match
 	STRING_SET ~2842~ @2842	// Exact match
-//	STRING_SET ~2843~ @2843	// Likeliness 51.8
+	STRING_SET ~2843~ @2843	// Likeliness 51.8
 	STRING_SET ~2844~ @2844	// Exact match
 	STRING_SET ~2845~ @2845	// Exact match
 	STRING_SET ~2846~ @2012	// Exact match
@@ -2987,7 +2987,7 @@
 	STRING_SET ~2986~ @2985	// Exact match
 	STRING_SET ~2987~ @2987	// Exact match
 	STRING_SET ~2988~ @2987	// Exact match
-//	STRING_SET ~2989~ @2989	// Likeliness 66.4
+	STRING_SET ~2989~ @2989
 	STRING_SET ~2990~ @2990	// Exact match
 	STRING_SET ~2991~ @2991	// Exact match
 	STRING_SET ~2992~ @2992	// Exact match
@@ -3143,7 +3143,7 @@
 	STRING_SET ~3142~ @3142	// Exact match
 	STRING_SET ~3143~ @3143	// Exact match
 	STRING_SET ~3144~ @3144	// Exact match
-//	Text 3145 Not found
+	STRING_SET ~3145~ @3145
 	STRING_SET ~3146~ @3146	// Exact match
 	STRING_SET ~3147~ @3147	// Exact match
 	STRING_SET ~3148~ @3148	// Exact match
@@ -3176,7 +3176,7 @@
 	STRING_SET ~3175~ @3175	// Exact match
 	STRING_SET ~3176~ @3176	// Exact match
 	STRING_SET ~3177~ @3177	// Exact match
-//	Text 3178 Not found
+	STRING_SET ~3178~ @3178
 	STRING_SET ~3179~ @3179	// Exact match
 	STRING_SET ~3180~ @3180	// Exact match
 	STRING_SET ~3181~ @1984	// Exact match
@@ -4011,7 +4011,7 @@
 	STRING_SET ~4010~ @4010	// Exact match
 	STRING_SET ~4011~ @4011	// Exact match
 	STRING_SET ~4012~ @4012	// Exact match
-//	STRING_SET ~4013~ @4013	// Likeliness 77.4
+	STRING_SET ~4013~ @4013
 	STRING_SET ~4014~ @4014	// Exact match
 	STRING_SET ~4015~ @4015	// Very likely 99.8
 	STRING_SET ~4016~ @4016	// Exact match
@@ -4093,7 +4093,7 @@
 	STRING_SET ~4092~ @4092	// Exact match
 	STRING_SET ~4093~ @4093	// Very likely 99.9
 	STRING_SET ~4094~ @4094	// Exact match
-//	Text 4095 Not found
+	STRING_SET ~4095~ @4095
 	STRING_SET ~4096~ @4096	// Exact match
 	STRING_SET ~4097~ @4097	// Exact match
 	STRING_SET ~4098~ @4098	// Exact match
@@ -4918,7 +4918,7 @@
 	STRING_SET ~4917~ @4917	// Very likely 99.8
 	STRING_SET ~4918~ @4918	// Exact match
 	STRING_SET ~4919~ @4919	// Exact match
-//	STRING_SET ~4920~ @4920	// Likeliness 76.3
+	STRING_SET ~4920~ @4920	// Likeliness 76.3
 	STRING_SET ~4921~ @4921	// Exact match
 	STRING_SET ~4922~ @4922	// Exact match
 	STRING_SET ~4923~ @4923	// Exact match
@@ -6481,7 +6481,7 @@
 	STRING_SET ~6480~ @6480	// Exact match
 	STRING_SET ~6481~ @6481	// Exact match
 	STRING_SET ~6482~ @6482	// Exact match
-//	Text 6483 Not found
+	STRING_SET ~6483~ @6483
 	STRING_SET ~6484~ @30	// Exact match
 	STRING_SET ~6485~ @6485	// Very likely 99.9
 	STRING_SET ~6486~ @6486
@@ -6661,7 +6661,9 @@
 	STRING_SET ~6660~ @6660	// Exact match
 	STRING_SET ~6661~ @6661	// Exact match
 	STRING_SET ~6662~ @26433	// Exact match
-//	Text 6663 Not found
+//	Text 6663 Not found // Alors là on a une grosse différence:
+// bg2ee : Character Record, tob : Armure de cuir +2 "protecteur du second" + description !
+// donc on va laisser non traduit, bizarre ça... !!!
 	STRING_SET ~6664~ @6664	// Exact match
 	STRING_SET ~6665~ @6664	// Exact match
 	STRING_SET ~6666~ @6664	// Exact match
@@ -6820,23 +6822,23 @@
 	STRING_SET ~6819~ @6819
 	STRING_SET ~6820~ @6820
 	STRING_SET ~6821~ @6821	// Exact match
-//	Text 6822 Not found
-//	STRING_SET ~6823~ @22787	// Likeliness 60.0
+	STRING_SET ~6822~ @6822
+	STRING_SET ~6823~ @6823
 	STRING_SET ~6824~ @6824
 	STRING_SET ~6825~ @6825	// Exact match
-//	Text 6826 Not found
-//	Text 6827 Not found
-//	Text 6828 Not found
-//	Text 6829 Not found
+	STRING_SET ~6826~ @6826
+	STRING_SET ~6827~ @6827
+	STRING_SET ~6828~ @6828
+	STRING_SET ~6829~ @6829
 	STRING_SET ~6830~ @6830	// Very likely 97.1
 	STRING_SET ~6831~ @6348	// Exact match
-//	Text 6832 Not found
-//	Text 6833 Not found
-//	Text 6834 Not found
-//	STRING_SET ~6835~ @27238	// Likeliness 56.7
+	STRING_SET ~6832~ @6832
+	STRING_SET ~6833~ @6833
+	STRING_SET ~6834~ @6834
+	STRING_SET ~6835~ @6835
 	STRING_SET ~6836~ @6836	// Exact match
-//	Text 6837 Not found
-//	STRING_SET ~6838~ @27238	// Likeliness 58.4
+	STRING_SET ~6837~ @6837
+	STRING_SET ~6838~ @6838
 	STRING_SET ~6839~ @6839	// Exact match
 	STRING_SET ~6840~ @6840	// Exact match
 	STRING_SET ~6841~ @6841	// Exact match
@@ -6847,9 +6849,9 @@
 	STRING_SET ~6846~ @6846	// Exact match
 	STRING_SET ~6847~ @6847	// Exact match
 	STRING_SET ~6848~ @6848	// Exact match
-//	Text 6849 Not found
-//	Text 6850 Not found
-//	Text 6851 Not found
+	STRING_SET ~6849~ @6849
+	STRING_SET ~6850~ @6850
+	STRING_SET ~6851~ @6851
 	STRING_SET ~6852~ @6852	// Exact match
 	STRING_SET ~6853~ @6853	// Exact match
 	STRING_SET ~6854~ @6853	// Exact match
