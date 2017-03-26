@@ -3,13 +3,13 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.2.2064~
+VERSION ~v0.3.0~
 
 // Use english readme if the selected language doesn't have a readme
-README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/readme_en_US.txt~
+README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/fr_fr/readme_fr_FR.txt~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
-AUTO_TRA ~bg2eetrans/language/%s~
+AUTO_TRA ~bg2eetrans/language/fr_fr~
 // Comment to prevent a failure in the notepad++ highlither because of the ~%~ character above
 
 ALWAYS
@@ -23,8 +23,8 @@ END	// ALWAYS
 // 0 is the first language choice, 1 the next, and so on
 // Languages in comments do not count!
 LANGUAGE ~Francais~
-	     ~fr_FR~
-         ~bg2eetrans/language/fr_FR/setup.tra~
+	     ~fr_fr~
+         ~bg2eetrans/language/fr_fr/setup.tra~
 
 
 // Initialisation
@@ -45,12 +45,12 @@ COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialog.tlk~
 COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialogF.tlk~
 MKDIR ~lang/%LANGUAGE%/override~
 
-ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~ ) THEN BEGIN
+ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_fr~ ) THEN BEGIN
 	// Add the chosen language to BG2EE
 	COPY_EXISTING ~BGEE.lua~ ~override/BGEE.lua~
 		REPLACE_TEXTUALLY ~	{'en_US', 99385, 99386, 'English'},~ ~	{'en_US', 99385, 99386, 'English'},
-	{'fr_FR', 1212, 1213, 'Français'},~
-		UNLESS ~'fr_FR'~
+	{'fr_fr', 1212, 1213, 'Français'},~
+		UNLESS ~'fr_fr'~
 	// Add the translated interface file
 	COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
 END
@@ -66,7 +66,7 @@ COPY ~.../bg2eetrans-inlined/weidu.conf~ ~weidu.conf~
 	EVALUATE_BUFFER
 
 // Ensure that tests and value assignment follow the order in the LANGUAGE instructions above
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~) THEN BEGIN
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_fr~) THEN BEGIN
 	OUTER_SET NUMLANG = 0
 END
 
