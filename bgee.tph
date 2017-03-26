@@ -3053,9 +3053,9 @@
 	STRING_SET ~2825~ @23325	// Exact match
 	STRING_SET ~2826~ @25770	// Exact match
 	STRING_SET ~2827~ @25770	// Exact match
-	STRING_SET ~2828~ @26034	// Very likely 92.9
+	STRING_SET ~2828~ @2828	// Very likely 92.9
 //	Text 2829 Not found
-	STRING_SET ~2830~ @26034	// Very likely 92.9
+	STRING_SET ~2830~ @2830	// Very likely 92.9
 	STRING_SET ~2831~ @25618	// Exact match
 	STRING_SET ~2832~ @25618	// Exact match
 //	Text 2833 Not found
@@ -18812,7 +18812,7 @@
 	STRING_SET ~17233~ @17233	// Exact match
 //	Text 17234 Not found
 	STRING_SET ~17235~ @17235	// Exact match
-	STRING_SET ~17236~ @24313	// Exact match
+	STRING_SET ~17236~ @17236
 	STRING_SET ~17237~ @17237	// Exact match
 	STRING_SET ~17238~ @17238	// Very likely 100.0
 	STRING_SET ~17239~ @17239	// Exact match
@@ -18831,7 +18831,7 @@
 	STRING_SET ~17252~ @17252	// Exact match
 	STRING_SET ~17253~ @17253	// Exact match
 	STRING_SET ~17254~ @17253	// Exact match
-	STRING_SET ~17255~ @24313	// Exact match
+	STRING_SET ~17255~ @17255
 	STRING_SET ~17256~ @17256	// Exact match
 	STRING_SET ~17257~ @17257	// Exact match
 	STRING_SET ~17258~ @17258	// Exact match
@@ -26784,7 +26784,7 @@
 //	Text 24310 Not found
 //	STRING_SET ~24311~ @2038	// Likeliness 58.1
 //	Text 24312 Not found
-//	Text 24313 Not found
+	STRING_SET ~24313~ @24313	// Likeliness 58.1
 //	Text 24314 Not found
 //	Text 24315 Not found
 //	Text 24316 Not found
@@ -45784,7 +45784,7 @@
 //	Text 41091 Not found
 //	Text 41092 Not found
 //	Text 41093 Not found
-	STRING_SET ~41094~ @26034	// Exact match
+//	STRING_SET ~41094~ @41094	// Exact match
 //	Text 41095 Not found
 //	Text 41096 Not found
 //	Text 41097 Not found
@@ -61513,7 +61513,7 @@
 //	Text 54776 Not found
 //	Text 54777 Not found
 //	Text 54778 Not found
-	STRING_SET ~54779~ @26034	// Very likely 92.9
+//	STRING_SET ~54779~ @54779	// Very likely 92.9
 //	Text 54780 Not found
 //	Text 54781 Not found
 //	Text 54782 Not found
@@ -96516,7 +96516,7 @@
 //	Text 85094 Not found
 //	Text 85095 Not found
 //	Text 85096 Not found
-	STRING_SET ~85097~ @26034	// Very likely 92.9
+//	STRING_SET ~85097~ @85097	// Very likely 92.9
 //	Text 85098 Not found
 //	Text 85099 Not found
 //	Text 85100 Not found
@@ -117821,4 +117821,5 @@
 	STRING_SET ~103041~ @13964	// Exact match
 //	Text 103042 Not found
 //	Text 103043 Not found
+	STRING_SET ~103194~ @32741
 // Processed entries 103044 / 103044: Exact 13550 / Very likeyly 1241 / Likely 9575// End of recovery for dialogEn.tra, from dialogFr.tra
