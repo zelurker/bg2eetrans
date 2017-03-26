@@ -21538,7 +21538,7 @@
 //	Text 19752 Not found
 //	STRING_SET ~19753~ @12675	// Likeliness 66.0
 //	STRING_SET ~19753~ @1060	// Likeliness 56.3
-	STRING_SET ~19754~ @2186	// Very likely 92.5
+//	STRING_SET ~19754~ @2186	// Nan, ça c'est Imoen...
 //	Text 19755 Not found
 //	Text 19756 Not found
 //	Text 19757 Not found
