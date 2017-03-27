@@ -26784,7 +26784,12 @@
 //	Text 24310 Not found
 //	STRING_SET ~24311~ @2038	// Likeliness 58.1
 //	Text 24312 Not found
-	STRING_SET ~24313~ @24313	// Likeliness 58.1
+// Cas particulier : 24313 c'est une collision entre le gui et le texte
+// tob, mais présent aussi dans la vo anglaise, ça se voit en faisant
+// nouvelle partie, juste après avoir appuyé sur le bouton sexe dans la
+// description. Décommenter la ligne 24313 corrige le gui, mais ça écrase
+// un texte tob, donc à priori vaut mieux la laisser commentée !
+//	STRING_SET ~24313~ @24313
 //	Text 24314 Not found
 //	Text 24315 Not found
 //	Text 24316 Not found
