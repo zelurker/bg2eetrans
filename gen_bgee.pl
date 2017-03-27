@@ -27,6 +27,14 @@ foreach (keys %us) {
 		}
 	}
 }
+open(F,"<bg2eetrans/bgee_manual.tph") || die "peut pas lire les modifs manuelles: bgee_manual.tph\n";
+my %manual;
+while (<F>) {
+	if (/STRING_SET ~(\d+)~ @(\d+)/) {
+		$manual{$2} = $2;
+	}
+}
+close(F);
 my @fr;
 load_fr("bgee_fr.tra",\@fr);
 open(F,">dialogbgee.tra") || die "can't create dialogbgee.tra !\n";
@@ -35,9 +43,23 @@ say G "// bgee.tph : automatically generated, exact matches only !";
 say G "// (ignoring ponctuation)";
 say G "";
 foreach (sort { $a <=> $b } keys %out) {
-	if ($fr[$out{$_}] !~ /(It |This|It's|what|No)/i) {
+	if ($fr[$out{$_}] !~ /(This|It's|what|No )/i) {
 		say F sprintf("\@%-5d",$_)," = $fr[$out{$_}]";
 		say G "STRING_SET ~$_~ \@$_";
+#	} elsif ($out{$_} == 32341) {
+#		my $truc = $fr[$out{$_}];
+#		say "rejeté sur $truc\n";
+#		die "this\n" if ($truc =~ /This/i);
+#		die "its\n" if ($truc =~ /It's/i);
+#		die "what\n" if ($truc =~ /what/i);
+#		die "no\n" if ($truc =~ /no /i);
+	}
+}
+# pas de string_set pour les manual ils sont déjà indiqués !
+foreach (sort { $a <=> $b } keys %manual) {
+	if ($fr[$manual{$_}] !~ /(This|It's|what|No )/i) {
+		say F sprintf("\@%-5d",$_)," = $fr[$manual{$_}]";
+		say "manual : ",sprintf("\@%-5d",$_)," = $fr[$manual{$_}]";
 	}
 }
 close(F);
