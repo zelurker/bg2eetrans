@@ -59,7 +59,6 @@ foreach (sort { $a <=> $b } keys %out) {
 foreach (sort { $a <=> $b } keys %manual) {
 	if ($fr[$manual{$_}] !~ /(This|It's|what|No )/i) {
 		say F sprintf("\@%-5d",$_)," = $fr[$manual{$_}]";
-		say "manual : ",sprintf("\@%-5d",$_)," = $fr[$manual{$_}]";
 	}
 }
 close(F);
@@ -81,12 +80,17 @@ sub read_tra {
 		$_ = lc($_);
 		s/[,;!\?\:\.]/ /g;
 		s/ +/ /g;
+		s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
 		if (/^\@(\d+) += (.+)/s) {
 			if (!$$hash{$2}) {
 				$$hash{$2} = [$1];
 			} else {
 				push @{$$hash{$2}}, $1;
 			}
+#			my $s = $2;
+#			if (/a know alignment spell/) {
+#				say join(",",@{$$hash{$s}});
+#			}
 		}
 	}
 	close(G);

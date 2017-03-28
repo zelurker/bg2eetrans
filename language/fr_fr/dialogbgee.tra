@@ -2456,6 +2456,17 @@ Capacités d'équipement :
 - permet de mémoriser un sort divin supplémentaire des niveaux 1 à 4
 
 Poids : 0~
+@7370  = ~Anneau de Folie : Le Disciplineur
+Cet anneau, qui fit maintes fois le malheur de mages négligents, servait en fait à encourager l'humilité. Hergat Norin, grand magicien de Narfell, donnait le Disciplineur aux plus adroits et aux plus prétentieux de ses élèves. Dans leur arrogance aveugle, ils voyaient l'anneau comme une récompense de leur "supériorité manifeste", et non comme la réprimande d'un professeur qui les désapprouvait.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Intelligence : passe à 3
+- Sagesse : passe à 3
+- ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+
+Poids : 0~
 @7371  = ~Collier de Projectiles : Le Cadeau Perdu
 Ce collier tire son nom de son seul et unique propriétaire, Ikaida Mourneve, qui s'était lancé à la recherche de sa fille enlevée. Peu de gens étaient prêts à aider ce père déterminé, mais un mage bon et généreux lui remit cet objet pour l'assister dans sa quête. Malheureusement, Ikaida laissa tomber le collier dans la Rivière Immerine, alors qu'il essayait de repousser des ennemis sur un pont suspendu. Par chance, la légende dit que l'objet ne fut pas indispensable pour réunir de nouveau la famille.
 
@@ -4107,6 +4118,20 @@ Type de compétence : fléchette
 Type : arme à une main
 
 Poids : 0~
+@10044 = ~Fléchettes d'Étourdissement
+La fléchette d'étourdissement ressemble à toutes les autres flèches, si ce n'est qu'elle semble palpiter lorsqu'on la tient dans la main. On peut en observer les véritables effets lorsque l'on frappe un adversaire et qu'il tombe au sol, étourdi.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible doit réussir un jet de sauvegarde contre les sorts ou être étourdie pendant 7 rounds.
+
+Dégâts : 1d3 (projectile)
+Facteur de vitesse : 2
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~
 @10045 = ~Cette fléchette a été trempée dans un poison mortel qui s'infiltre immédiatement dans le sang de la victime qu'elle atteint et provoque une mort rapide.
 
 PARAMÈTRES:
@@ -5642,7 +5667,7 @@ Temps d'incantation : 4
 Zone d'effet : spéciale
 Jet de sauvegarde : aucun
 
-Ce sort ressemble beaucoup au sort de Convocation de monstres I de 3ème niveau, excepté qu'il convoque un ou deux monstres de 4 DV. Il y a 60 % de chance d'avoir un seul monstre, et 40 % de chance d'en avoir deux. Le ou les servants apparaissent dans la portée du sortilège et attaquent les ennemis du lanceur pour toute la durée du sort, ou jusqu'à leur mort.~
+Ce sort est semblable au sortilège Convocation de monstres I de niveau 3, à la différence qu'il invoque un ou plusieurs monstres possédant 4 dés de vie. Il y a 60 % de chances d'avoir un seul monstre, et 40 % de chances d'en avoir deux. Le ou les servants apparaissent dans la portée du sortilège et attaquent les ennemis du lanceur pour toute la durée du sort, ou jusqu'à leur mort.~
 @12158 = ~Convocation de monstres III
 (Conjuration/Convocation)
 
@@ -5653,7 +5678,7 @@ Temps d'incantation : 5
 Zone d'effet : spéciale
 Jet de sauvegarde : aucun
 
-Ce sort ressemble beaucoup au sort de Convocation de monstres I de 3ème niveau, mais il convoque l'équivalent de 5 DV de monstres. Il y a 60 % de chances de convoquer 1 monstre et 40 % de chances d'en convoquer 2. Ces derniers apparaissent dans la portée du sort et attaquent les adversaires du jeteur de sorts, jusqu'à ce que le sort arrive à expiration ou jusqu'à ce qu'ils se fassent tuer.~
+Ce sort est semblable au sortilège Convocation de monstres I de niveau 3, à la différence qu'il invoque un ou plusieurs monstres possédant 5 dés de vie. Il y a 60 % de chances d'avoir un seul monstre, et 40 % de chances d'en avoir deux. Le ou les servants apparaissent dans la portée du sortilège et attaquent les ennemis du lanceur pour toute la durée du sort, ou jusqu'à leur mort.~
 @12159 = ~Clairvoyance
 (Divination)
 
@@ -5687,7 +5712,7 @@ Temps d'incantation : spécial
 Zone d'effet : 1 objet
 Jet de sauvegarde : aucun
 
-Une fois ce sort mémorisé, ouvrez la description d'un objet non identifié et cliquez sur le bouton "Identifier". Les chances d'identification de l'objet sont de 100 %. Le sort indique le nom de l'objet et ses pouvoirs, et permet de savoir s'il est maudit.~
+Une fois ce sort mémorisé, allez dans la description d'un objet non identifié et pressez le bouton "identifier". La chance d'identification de l'objet est de 100 %. Le sort donne le nom de l'objet et ses pouvoirs, et permet de savoir s'il est ou non maudit.~
 @12162 = ~Infravision
 (Divination)
 
@@ -5720,8 +5745,7 @@ Temps d'incantation : 9
 Zone d'effet : 1 créature
 Jet de sauvegarde : annule
 
-Le sort de Connaissance des alignements permet au mage de voir l'aura d'une créature. Si la créature réussit un jet de sauvegarde contre les sorts, le jeteur de sorts n'apprend rien sur la créature en question. Lorsqu'un personnage est affecté par ce sort, il rougeoie s'il est maléfique, brille d'une couleur verte s'il est bon, et irradie une couleur blanche s'il est neutre. Certains dispositifs magiques annulent les pouvoirs du sort Connaissance des alignements.
-~
+Le sort de Connaissance des alignements permet au mage de voir l'aura d'une créature. Si la créature réussit un jet de sauvegarde contre les sorts, le jeteur de sorts n'apprend rien sur la créature en question. Lorsqu'un personnage est affecté par ce sort, il rougeoie s'il est maléfique, brille d'une couleur verte s'il est bon, et irradie une couleur blanche s'il est neutre. Certains dispositifs magiques annulent les pouvoirs du sort Connaissance des alignements.~
 @12165 = ~Charme-personne
 (Enchantement/Charme)
 
@@ -5827,13 +5851,23 @@ Le bénéficiaire de ce sort est chanceux dans tout ce qu'il entreprend au cours
 (Invocation)
 
 Niveau : 2
-Portée : 4,5 mètres
+Portée : 4,50 mètres
 Durée : 1 round
 Temps d'incantation : 3
-Zone d'effet : ligne de 60 cm sur 4,5 mètres
+Zone d'effet : ligne de 60 cm sur 4,50 mètres
 Jet de sauvegarde : aucun
 
-Au lancement de ce sort, des flammes jaillissent du bout des doigts du jeteur de sorts pour atteindre la cible qu'il a choisie. La cible frappée écope de 3d6 points de dégâts, et il en va de même de toute créature située dans la trajectoire des flammes. Le jet de flamme provoque des dégâts supplémentaires à la moitié de sa durée d'effet, et le jeteur de sort peut se déplacer pendant la durée du sort. Il n'existe pas de jet de sauvegarde contre ce sort, mais des capacités anti-feu comme la résistance au feu peuvent réduire, voire supprimer, les dégâts.~
+Au lancement de ce sort, des flammes jaillissent du bout des doigts du jeteur de sorts pour atteindre la cible qu'il a choisie. La cible frappée écope de 3d6 points de dégâts, et il en va de même de toute créature située dans la trajectoire des flammes. Le jet de flamme provoque des dégâts supplémentaires à la moitié de sa durée d'effet, et le jeteur de sort peut se déplacer pendant la durée du sort. Il n'existe pas de jet de sauvegarde contre ce sort, mais des capacités anti-feu comme la résistance au feu peuvent réduire, voire supprimer, les dégâts.~ ~Incinérateur d'Agannazar
+(Invocation)
+
+Niveau : 2
+Portée : 4,50 mètres
+Durée : 1 round
+Temps d'incantation : 3
+Zone d'effet : ligne de 60 cm sur 4,50 mètres
+Jet de sauvegarde : aucun
+
+Au lancement de ce sort, des flammes jaillissent du bout des doigts du jeteur de sorts pour atteindre la cible qu'il a choisie. La cible frappée écope de 3d6 points de dégâts, et il en va de même de toute créature située dans la trajectoire des flammes. Il n'existe pas de jet de sauvegarde contre ce sort, mais des capacités anti-feu comme la résistance au feu peuvent réduire, voire supprimer, les dégâts.~
 @12174 = ~Orbe chromatique
 (Invocation)
 
@@ -6005,7 +6039,7 @@ Temps d'incantation : 1
 Zone d'effet : cible
 Jet de sauvegarde : aucun
 
-Grâce à ce sort, le magicien absorbe la force vitale d'une cible pour l'ajouter à la sienne. La créature visée subit de 4 points de dégâts, tandis que le mage gagne de 4 points de vie. Si le mage dépasse son total maximum de points de vie avec ce sort, il perd les points de vie supplémentaires au bout de 1 tour.~
+Grâce à ce sort, le magicien absorbe la force vitale d'une cible pour l'ajouter à la sienne. La créature visée subit de 4 points de dégâts, tandis que le mage gagne de 4 points de vie. Si le mage dépasse son total maximum de points de vie avec ce sort, il perd tout point de vie en trop au bout d'un tour.~
 @12190 = ~Toucher vampirique
 (Nécromancie)
 
@@ -6165,6 +6199,18 @@ Zone d'effet : 1 créature
 Jet de sauvegarde : aucun
 
 En jetant ce sort, le prêtre peut généralement annuler une malédiction ordinaire pesant sur un objet ou sur une personne, ou une malédiction sous la forme d'une intention indésirable ou d'une présence maléfique. Il faut savoir que le sort de Délivrance de la malédiction ne fait pas disparaître une malédiction lancée, par exemple, sur un bouclier, une arme ou une armure, bien qu'il permette normalement à la personne affligée d'un objet maudit de s'en débarrasser. Certaines malédictions spéciales ne peuvent pas être contrecarrées par ce sort ou ne peuvent l'être que par un jeteur de sorts d'un certain niveau (ou d'un niveau supérieur).~
+@12204 = ~Apaisement
+(Abjuration)
+
+Niveau : 1
+Sphère : Charme
+Portée : 9 mètres
+Durée : 1 heure
+Temps d'incantation : 1
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : aucun
+
+Le prêtre insuffle du courage au bénéficiaire du sort et élève son moral à son plus haut niveau. Au fur et à mesure que la durée du sort s'écoule, le moral de la cible revient à son niveau normal. Si la cible est affectée par une terreur magique, cette peur s'annule.~
 @12205 = ~Délivrance de la paralysie
 (Abjuration)
 
@@ -6354,6 +6400,19 @@ Zone d'effet : le lanceur
 Jet de sauvegarde : aucun
 
 Lorsqu'un prêtre jette un sort de détection des pièges, tous les pièges (dissimulés normalement ou par la magie) de nature magique ou mécanique deviennent visibles à ses yeux. On désigne par piège tout dispositif ou défense magique répondant à trois critères : il doit provoquer un résultat soudain ou inattendu ; le jeteur de sorts perçoit ce résultat comme indésirable ou nuisible ; le créateur a eu l'intention délibérée d'obtenir ce résultat nuisible ou indésirable. Les pièges incluent donc les glyphes et les sorts ou dispositifs similaires. La nature du sort fait que le lanceur doit rester immobile et se concentrer pendant un round, ce qui interrompra toute autre action, mais n'affectera pas l'incantation de sorts.~
+@12222 = ~Connaissance des alignements
+(Divination)
+
+Niveau : 2
+Sphère : Divination
+Portée : 9 mètres
+Durée : instantanée
+Temps d'incantation : 9
+Zone d'effet : 1 créature
+Jet de sauvegarde : annule
+
+Le sort de Connaissance des alignements permet au prêtre de voir l'aura d'une créature. Si la créature réussit un jet de sauvegarde contre les sorts, le jeteur de sorts n'apprend rien sur la créature en question. Lorsqu'un personnage est affecté par ce sort, il rougeoie s'il est maléfique, brille d'une couleur verte s'il est bon, et irradie une couleur blanche s'il est neutre. Certains dispositifs magiques annulent les pouvoirs du sort Connaissance des alignements.
+~
 @12223 = ~Charme-personne ou mammifère
 (Enchantement/Charme)
 
@@ -6603,13 +6662,13 @@ Lorsque le prêtre jette ce sort et pose sa main sur une créature, il soigne 1d
 Niveau : 2
 Sphère : Guérison
 Portée : contact
-Durée : instantanée
+Durée : Instantané
 Temps d'incantation : 1
-Zone d'effet : cible
+Zone d'effet : 1 créature
 Jet de sauvegarde : aucun
 
 Lorsque ce sort est jeté sur un individu empoisonné, il ralentit beaucoup l'effet du venin, ce qui peut le neutraliser dans un grand nombre de cas.~
-@12325 = ~Soins des blessures graves
+@12325 = ~Soins des Blessures graves
 (Nécromancie)
 
 Niveau : 4
@@ -6620,7 +6679,7 @@ Temps d'incantation : 7
 Zone d'effet : 1 créature
 Jet de sauvegarde : aucun
 
-Ce sort est une version plus puissante du sort de Soins des blessures légères. Lorsque le prêtre pose sa main sur une créature, il soigne 17 points de blessures ou autres dégâts infligés au corps de la créature. Ce sort ne peut être utilisé sur les créatures non-corporelles, non-vivantes ou extra-planaires.~
+Ce sort est plus puissant que celui des Soins des blessures légères. Lorsqu'il pose la main sur une créature, le prêtre guérit 17 points de blessures ou autres dégâts liés à des blessures sur le corps de la créature. Cette guérison ne peut être utilisée sur les créatures non-corporelles, non-vivantes ou extra-planaires.~
 @12326 = ~Rappel à la vie
 (Nécromancie)
 
@@ -11701,13 +11760,13 @@ En jetant ce sort, le prêtre peut généralement annuler une malédiction ordin
 (Enchantement/Charme)
 
 Niveau : 4
-Portée : champ visuel du lanceur
+Portée : 15 mètres
 Durée : 2 rounds par niveau
 Temps d'incantation : 4
 Zone d'effet : rayon de 9 mètres
-Jet de Sauvegarde : aucun
+Jet de sauvegarde : aucun
 
-Ce sort permet d'affecter négativement les jets de sauvegarde des ennemis. L'effet est appliqué à toute créature hostile dans la zone d'effet. Les adversaires sous l'influence de ce sort souffrent d'une pénalité de -4 à tous leurs jets de sauvegarde.~
+Ce sort permet d'influencer de façon défavorable tous les jets de sauvegarde ennemis. Ses effets s'appliquent à toute créature hostile située dans la zone d'effet. Les adversaires sous l'influence de ce sort effectuent tous leurs jets de sauvegarde avec une pénalité de -4.~
 @22187 = ~Vous allez mourir, pourriture.~
 @22188 = ~Garde du Consortium des Marchands~
 @22189 = ~Garde du Consortium des Marchands~
@@ -11889,13 +11948,23 @@ Cependant, lorsque le sort expire, il existe le danger d'un drainage de l'énerg
 (Enchantement/Charme)
 
 Niveau : 5
-Portée : 10 mètres
-Durée : 5 rounds + 1 round par 6 niveaux
+Portée : 10,5 mètres
+Durée : 5 rounds + 1 round tous les 6 niveaux
 Temps d'incantation : 4
 Zone d'effet : rayon de 9 mètres
-Jet de Sauvegarde : spécial
+Jet de sauvegarde : spécial
 
-Les effets de ce sort sont similaires à celui du sort de 4ème niveau Confusion. La victime erre sans but réel, confuse, attaquant quelquefois indifféremment amis comme ennemis. Si la victime est du niveau 4 ou inférieur, elle ne peut pas faire de Jet de Sauvegarde contre les effets du sort. À partir du niveau 5, elle peut tenter un Jet de Sauvegarde contre les sorts à -4. Le sort reste actif jusqu'à expiration ou Dissipation.~
+Les effets de ce sort sont exactement identiques à ceux du sort de confusion de 4ème niveau. Les victimes se déplacent comme hypnotisées, et se comportent en amies ou en ennemies, parfois s'éloignant, parfois attaquant. Si l'effet est de 4e niveau ou moins, la victime ne reçoit pas de jet de sauvegarde contre les effets. Mais s'il s'agit du 5e niveau ou plus, elle reçoit un jet de sauvegarde contre les sorts avec pénalité de -4. Le sort agit selon sa durée spécifique, à moins qu'une dissipation de sort ne parvienne à y mettre fin avant terme.~ ~Chaos
+(Enchantement/Charme)
+
+Niveau : 5
+Portée : 10;5 mètres
+Durée : 5 rounds + 1 round tous les 6 niveaux
+Temps d'incantation : 4
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : spécial
+
+Les effets de ce sort sont exactement identiques à ceux du sort de confusion de 4ème niveau. Les victimes se déplacent comme hypnotisées, et se comportent en amies ou en ennemies, parfois s'éloignant, parfois attaquant. Si l'effet est de 4e niveau ou moins, la victime ne reçoit pas de jet de sauvegarde contre les effets. Mais s'il s'agit du 5e niveau ou plus, elle reçoit un jet de sauvegarde contre les sorts avec pénalité de -4. Le sort agit selon sa durée spécifique, à moins qu'une dissipation de sort ne parvienne à y mettre fin avant terme.~
 @22612 = ~Débilité mentale~
 @22613 = ~Débilité mentale
 (Enchantement/Charme)
@@ -11905,9 +11974,9 @@ Portée : 12 mètres
 Durée : permanente
 Temps d'incantation : 5
 Zone d'effet : 1 créature
-Jet de Sauvegarde : annule
+Jet de sauvegarde : annule
 
-Ce sort réduit l'intelligence de la cible au niveau de celle d'une bête de somme. La victime reste dans cet état jusqu'à Dissipation de la magie. Pour éviter les conséquences du sort, la cible doit réussir un Jet de Sauvegarde contre les sorts à -2.~
+Le sujet atteint de faiblesse mentale voit ses capacités intellectuelles ramenées à celles d'un enfant attardé. Seule une dissipation de magie peut le délivrer de cet état. La victime doit faire un jet de sauvegarde contre ce sort avec pénalité de -2 pour éviter cet effet.~
 @22614 = ~Domination~
 @22615 = ~Domination
 (Enchantement/Charme)
@@ -12017,12 +12086,38 @@ Poids : 4~
 @22713 = ~Cimeterre~
 @22714 = ~Armure de peau~
 @22715 = ~Armure de peau~
+@22716 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc...). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -10 %
+- déplacement silencieux : -20 %
+
+Classe d'armure : 6 (8 contre les armes perforantes et les projectiles)
+Nécessite : 6 en Force
+
+Poids : 40~
 @22717 = ~Fleurs de belladone~
 @22718 = ~Fleurs de belladone~
 @22719 = ~Une fleur au parfum étrange, mais très belle.
 
 Poids : 1~
 @22722 = ~Dague voleuse d'âme~
+@22723 = ~La Dague Voleuse d'Âme
+Cette dague en argent massif a une lame pointue à double tranchant.
+
+PARAMÈTRES :
+
+Dégâts : 1d4 (perforant)
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 1~
 @22724 = ~Mailloche à gong~
 @22725 = ~Mailloche à gong~
 @22726 = ~On dirait une mailloche pour un gong quelconque.
@@ -12320,6 +12415,61 @@ Poids : 1~
 @23471 = ~Métamorphose en Gelée moutarde~
 @23472 = ~Métamorphose en Araignée~
 @23473 = ~Recettes et ruminations~
+@23474 = ~Les recettes et ruminations de l'Unique Dradeel de Téthyr
+
+Autrefois
+
+" Un gâteau savoureux fait toujours des heureux "
+
+Les recettes mentionnées ici sortant tout droit de mon imagination, je peux en changer les ingrédients selon mon bon plaisir.
+************
+Pain au lait à la belladone
+Mets simple pour après-midi pluvieux.
+
+Maïzena,
+Œufs d'oiseau de mer,
+Une cuillerée de champignon d'écume,
+Les fruits de votre choix pour sucrer,
+Une petite mesure de racine de belladone.
+Préparer comme une pâte à pain, mais laisser lever un peu moins.
+Cuire sous des feuilles, dans une cheminée bien alimentée, pendant un tour de sablier.
+
+Remarques à ma seule intention : s'abstenir de jamais remanger de cette chose. Extrêmement toxique. Ne pas oublier cette affreuse semaine passée sur le carreau de la cuisine.
+************
+Surprise de Dradeel aux petits légumes
+Mets étonnamment comestible. Ne pas consommer pendant plus de 300 ans comme repas principal quotidien. Il peut s'en suivre un certain déséquilibre.
+
+Verser 2 tasses d'huile d'olive vierge nethérisse dans une grande marmite et ajouter 1 gros oignon haché.
+Faire revenir l'oignon dans l'huile à feu moyen jusqu'à ce qu'il commence à blondir.
+Ajouter 2 carottes et 2 pieds de céleri que vous aurez coupés en morceaux.
+Faire revenir encore 3 minutes.
+Ajouter 1,5 litre d'eau et porter à ébullition.
+
+Ajouter 2 pommes de terre pelées et coupées en dés, 1 verre de vin blanc (je conseillerais un Rhynnien mythique), 1 feuille de laurier, 2 tomates coupées en dés et du persil haché menu (selon le goût).
+
+Couvrir et faire cuire à feu assez doux jusqu'à ce que les légumes soient presque tendres. Ajouter 200 grammes d'épinards hachés et poursuivre la cuisson pendant 15 minutes. Servir chaud et garni de fromage râpé.
+
+Remarque : pour une version orquienne, remplacer tous les ingrédients par des navets.
+************
+Ingrédients curatifs pour dissiper la lycanthropie.
+Recette familiale de Mère
+
+Remarques : ce baume local concocté par Mère est un échec à peu près complet. Poursuivre la recherche sans oublier ce qui suit : si les créatures de cette île sont divisées en deux factions, elles sont également peu communes à d'autres égards. Elles sont le jouet d'une étrange malédiction qui résiste à tous les remèdes traditionnels (tels que ces dangereux pains au lait cités plus haut), mais il y a encore de l'espoir. L'origine exotique de l'espèce première semble indiquer un enchantement unique, qui n'est pas sans rappeler les maux vampiriques plus connus. Pour prévenir les morsures accidentelles, utiliser par exemple de la fleur de belladone ; en cas d'infection délibérée, il faudrait peut-être exterminer le meneur du clan... Simple hypothèse, bien sûr, n'ayant pu moi-même examiner le dit meneur. Malgré mon étrange immunité, sa force pourrait tout de même occasionner de graves dégâts à ma forme physique. Lui et moi avons eu l'occasion de nous entretenir, quoique sa tolérance à mon endroit ne soit pas plus importante que la mienne envers lui.
+
+Autres remarques à ma seule intention : les offres de paix futures faites à l'un ou l'autre des clans-loups ne doivent pas prendre la forme de pains au lait ou brioches d'aucune sorte.
+************
+La Béquille du célibataire
+Nouilles de qualité et prêtes à consommer.
+
+Ingrédients :
+Une mesure de nouilles
+De l'eau bouillante
+Un récipient
+
+Mélanger les ingrédients dans le récipient.
+Savourez. Oh oui, savourez.
+
+Remarques à ma seule intention : à compléter par quelque chose de nutritif, pour que mes os ne deviennent pas aussi friables que de la craie. Peut-être avec le récipient ?~
 @23475 = ~Métamorphose en Ogre~
 @23476 = ~Les Recettes et ruminations de l'Unique Dradeel de Téthyr~
 @23477 = ~Durlag le tueur de trolls~
@@ -15705,8 +15855,9 @@ Temps d'incantation : 5
 Zone d'effet : rayon de 9 mètres
 Jet de sauvegarde : aucun
 
-Un sort de Dissipation de la magie annule les effets magiques affectant toutes les créatures dans la zone : effets des sorts, des potions et de certains objets magiques comme les baguettes. Mais il n'affecte pas les objets magiques enchantés ou les protections contre les sorts (Renvoi et Déviation des sorts). Les chances de réussite du sort dépendent du niveau du magicien et du niveau de magie à dissiper, et sont de 50 % à la base. Pour chaque niveau d'expérience du magicien supérieur par rapport à celui du sort original, ses chances de succès augmentent de 5 %. Pour chaque niveau inférieur par rapport à celui du sort original, ses chances sont réduites de 5 %. Mais, malgré la différence de ces niveaux, il y a toujours au moins 1 % de chances de succès ou d'échec. Donc, si un magicien possède 10 niveaux de plus que la magie qu'il tente de dissiper, les probabilités d'échec sont de 1 % seulement. De la même manière, si le magicien possède 4 niveaux de moins que le sort qu'il tente de dissiper, il n'a que 10 % de chances de réussir. Ce sort est donc pratiquement inutile si la magie à dissiper est supérieure de 10 niveaux par rapport au magicien.
-Remarque : ce sort dissipe les effets des Glisses, des Toiles d'araignée et des Nuages puants, mais n'affecte pas leur zone d'effet.~
+Ce sort annule les effets magiques affectant toute créature dans la zone d'effet, qu'il s'agisse des effets des sorts, des potions ou de certains objets magiques comme les baguettes. Notez que les objets spécialement enchantés ou les sorts de protection comme Renvoi des Sorts ou Déviation de Sorts ne sont pas affectés. Les chances de réussir une dissipation sont déterminées par le niveau du jeteur de sorts et celui de la magie à dissiper. Elles sont à la base de 50 %. Si le magicien possède un niveau supérieur à celui du créateur de l'effet à dissiper, chaque niveau de différence augmente ces chances de 5 %. S'il est d'un niveau inférieur, chaque niveau de différence diminue ces chances de 10 %. Cependant, quelle que soit la différence de niveaux, il y a toujours au moins 5 % de chances de réussir ou échouer. Par conséquent, si un jeteur de sorts possède un niveau 10 fois supérieur à la magie qu'il essaie de dissiper, il n'a que 5 % de chances d'échouer. Inversement, si le jeteur de sorts est 4 niveaux en dessous de la magie à dissiper, il n'a que 10 % de chances de réussir. On peut donc logiquement en conclure que ce sort est quasiment inutile si la cible a au moins 5 niveaux de plus que le magicien.
+
+Remarque : Bien que le sort dissipe les effets individuels des sorts de Glisse, Toile d'Araignée, Nuage Puant, et autres sorts similaires, il ne dissipe pas la zone d'effet de ces sorts.~
 @45849 = ~Ensorceleur~
 @45851 = ~Moine~
 @45855 = ~barbare~
@@ -15891,6 +16042,10 @@ RAGE : Pendant 5 rounds, la rage confère un bonus de +4 en Constitution et en 
 Des jours heureux où nous étions tous frits,
 En ce temps-là la mer était si belle,
 Et le flétan bien plus frais qu'aujourd'hui...~
+@48071 = ~Qu'est-ce qu'on fait d'un marin saoul ?
+À la mode, à la mode...
+Qu'est-ce qu'on fait d'un marin saoul ?
+À la mode de chez nous...~
 @48073 = ~On le jette à l'ancre accroché !
 À la mode, à la mode...
 On le jette à l'ancre accroché !
@@ -18085,6 +18240,17 @@ Le souhait est le sort ultime, capable de répondre à toutes les attentes du ma
 @63231 = ~Summon Planetar~
 @63233 = ~Convocation de planétaire déchu~
 @63235 = ~~
+@63237 = ~Convocation de planétaire déchu
+(Toutes Écoles)
+
+Niveau : 10
+Portée : 36 mètres
+Durée : 4 rounds + 1 round par niveau
+Temps d'incantation : 5
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Ce sort ouvre un portail dimensionnel et convoque un Planétaire déchu qui combat aux côtés du lanceur jusqu'à sa mort ou l'expiration du sort.~
 @63250 = ~~
 @63266 = ~~
 @63267 = ~~
@@ -21361,6 +21527,19 @@ Ce sort fait bénéficier au lanceur d'un bonus de +1 aux jets d'attaque et de d
 @103059 = ~Chaman~
 @103061 = ~Chaman~
 @103062 = ~Protection de l'esprit~
+@103063 = ~Protection de l'esprit
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : toucher
+Durée : 3 rounds par niveau
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce sort entoure le bénéficiaire d'une barrière magique à une distance d'un pied. Les esprits, les fées, les élémentaires, et les morts-vivants spectraux subissent une pénalité de -2 au toucher lorsqu'ils attaquent une créature protégée. En outre, le bénéficiaire gagne un bonus de +3 aux jets de sauvegarde contre tous les sorts qui appartiennent à l'école d'Enchantement. Ce sort ne peut être lancé sur les esprits, les fées, les élémentaires, et les morts-vivants spectraux.
+~
 @103064 = ~Élu des Esprits~
 @103066 = ~Élu de la protection des esprits est déchargé~
 @103067 = ~Brouillard putride~
@@ -21559,6 +21738,72 @@ Les orques sont les ennemis héréditaires des gobelins et hobgobelins, avec les
 @103205 = ~Affiche les points de vie actuels et maximum de chacun des membres du groupe sur leur portrait.~
 @103206 = ~Dispel Confusion~
 @103210 = ~Venez, venez tous !~
+@9550  = ~HUMAINS : Les humains sont la race prédominante à Féérûne. Ils règnent sur la plupart des empires et des royaumes importants des Royaumes Oubliés. À l'exception peut-être des petites-gens, ils forment la race la plus sociable et la plus tolérante. Les humains peuvent prendre n'importe quelle classe. Ils sont aussi la seule race à pouvoir prétendre à une classe jumelée. Cependant, ils ne peuvent pas se multi-classer.
+~
+@12172 = ~Sommeil
+(Enchantement/Charme)
+
+Niveau : 1
+Portée : 18 mètres
+Durée : 5 rounds par niveau
+Temps d'incantation : 1
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : annule
+
+Lorsque le magicien lance un sort de sommeil, il provoque un état comateux chez un ou plusieurs ennemis (autres que les morts-vivants et certaines créatures à l'abri des effets de ce sort particulier). Toutes les créatures affectées doivent se trouver dans un rayon de 9 m. Les créatures dans la zone d'effet doivent réussir un jet de sauvegarde avec un malus de -3 ou s'endormir. Les monstres possédant 5 DV ou plus ne sont pas affectés. Les attaques portées aux adversaires endormis n'échouent jamais.~
+@12177 = ~Boule de feu
+(Invocation)
+
+Niveau : 3
+Portée : 12 mètres
+Durée : instantanée
+Temps d'incantation : 3
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : demi-dégâts
+
+Une Boule de feu est une explosion de flammes qui éclate avec un grondement sourd et engendre des dégâts proportionnels au niveau d'expérience du magicien : 1d6 points de dégâts par niveau d'expérience du jeteur de sorts (10d6 maximum). Le magicien pointe son doigt et annonce la distance et la hauteur à laquelle il veut faire exploser la Boule de feu. Un éclair jaillit du bout de son doigt et, à moins qu'il ne soit bloqué par un corps physique ou une barrière solide avant d'atteindre sa destination, se transforme en Boule de feu (un impact prématuré provoque une explosion prématurée). Les créatures qui ratent leur jet de sauvegarde contre les sorts subissent la totalité des dégâts. Celles qui le réussissent parviennent à bondir à l'écart, à se jeter à terre ou à rouler sur le côté, et n'encaissent que la moitié des dégâts.
+~
+@12179 = ~Éclair
+(Invocation)
+
+Niveau : 3
+Portée : 36 mètres + 9 mètres par niveau
+Durée : instantanée
+Temps d'incantation : 3
+Zone d'effet : spéciale
+Jet de sauvegarde : demi-dégâts
+
+En lançant ce sort, le magicien libère une décharge électrique puissante qui inflige 1d6 points de dégâts par niveau du jeteur de sorts (dégâts maximum de 10d6) à chaque créature située dans la zone d'effet. Un jet de sauvegarde contre les sorts réussi permet de n'encaisser que la moitié des dégâts (arrondis à la fraction inférieure). L'éclair prend naissance à une portée et une hauteur déterminées par le magicien et s'étend sur une ligne directe partant du magicien. Par exemple, si un éclair de 12 mètres est lancé à 54 mètres du magicien, son extrémité la plus éloignée est à 66 mètres (54 +12). Si l'éclair rencontre un mur, il rebondit jusqu'à ce qu'il atteigne sa longueur complète.~
+@24204 = ~DEMI-ORQUES : Les demi-orques sont issus de l'union de parents humains et orques. Ils sont aussi grands que les humains, mais un peu plus lourds à cause de leur masse musculaire. Leur peau verdâtre, leur front fuyant, leurs mâchoires saillantes, leurs dents proéminentes et leur corps massif les rendent faciles à reconnaître. Les demi-orques sont tolérés sur la Côte des Épées car, contrairement au Nord, les habitants de ce royaume n'ont pas subi d'attaques orques depuis plusieurs siècles. Les demi-orques sont connus pour leur grande force.
+
+Les demi-orques bénéficient des traits suivants :
+- +1 en Force ; +1 en Constitution ; -2 en Intelligence.
+- infravision.~
+@24285 = ~TUEUR DE MAGICIENS : Ce guerrier a reçu un entraînement spécifique qui lui permet d'exceller dans la chasse et l'attaque des lanceurs de sorts.
+
+Avantages :
+- Le lanceur de sort touché par ce type de personnage se voit appliquer une probabilité de 25 % cumulatifs de rater ses incantations.
+- +1 % de Résistance à la magie par niveau.
+
+Inconvénients :
+- Ne peut pas utiliser d'objets magiques autres qu'armures et armes.~
+@24298 = ~ARCHER : Maître au tir à l'arc, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines capacités de port d'armure et de maniement des armes de contact.
+
+Avantages :
+- Bonus de +1 au toucher et aux dégâts avec les armes à distance tous les 3 niveaux d'expérience.
+- Peut atteindre la grande maîtrise (5 étoiles) dans les arcs courts, les arcs longs et les arbalètes.
+- Gagne la capacité de faire un tir ajusté une fois par jour tous les 4 niveaux.
+
+TIR AJUSTÉ : Toute attaque à distance effectuée dans les 10 secondes qui suivent a les effets cumulatifs suivants (en sus des dégâts normaux) en fonction du niveau de l'Archer :
+Niveau 4 : La cible subit un malus de -1 au TAC0.
+Niveau 8 : La cible subit un malus de -1 aux jets de sauvegarde contre les sorts.
+Niveau 12 : La cible subit un malus de -1 à la Force.
+Niveau 16 : +2 aux dégâts du tir.
+
+Inconvénients :
+- Peut porter uniquement une armure de cuir, une besantine ou une armure de peau.
+- Ne peut être que compétent (une étoile) dans le maniement des armes de mêlée.
+- Ne peut utiliser 'Charme-animal'.~
 @24301 = ~ASSASSIN : il s'agit d'un tueur spécialisé dans le meurtre discret et efficace, et qui sait exploiter au mieux la prudence et la surprise. Son entraînement en anatomie, en furtivité et dans les poisons permet à un assassin de réaliser des missions mortelles avec une précision terrifiante. Un assassin rusé peut ne jamais être vu par sa victime.
 
 Avantages :
@@ -21580,7 +21825,113 @@ Expertise en poisons :
 
 Attaque mortelle :
 En étudiant intensément les points faibles de sa victime, un assassin peut concentrer tous ses talents et prouesses en une seule attaque mortelle. L'attaque suivante devient automatiquement un coup critique, et la cible doit réussir un jet de sauvegarde contre la mort pour ne pas être instantanément tuée. Lorsque l'expérience de l'assassin augmente, l'efficacité de son Attaque mortelle s'améliore. La victime a un malus de -1 au niveau 24, de -2 au niveau 32 et de -3 au niveau 40. Les golems, les élémentaires, les gelées et les morts-vivants ne peuvent être tués par une Attaque mortelle.~
+@24312 = ~JUSTICIER : Membre d'une secte spéciale, ce druide s'est dévoué au combat contre ceux qui profanent la nature. Ils possèdent des pouvoirs qui dépassent ceux des druides normaux, qu'ils ont gagnés par des rituels intensifs, très épuisants sur le plan physique.
+
+Avantages :
+- Peut se transformer, en plus des formes normales, en Araignée-sabre, en Bébé wiverne, et en Salamandre de feu.
+- 19ème niveau : acquiert un usage supplémentaire de métamorphose. (Remarque : ce niveau ne peut être atteint que dans Baldur's Gate II : Enhanced Edition.)
+- Six sorts profanes sont ajoutés à son répertoire, sur tout le spectre jusqu'à 6ème niveau :
+Niveau 1 : Orbe chromatique
+Niveau 2 : Toile d'araignée
+Niveau 3 : Éclair
+Niveau 4 : Invisibilité majeure
+Niveau 5 : Chaos
+Niveau 6 : Chaîne d'éclairs
+
+Inconvénients :
+- Ne peut porter d'armure plus lourde que celle de cuir.
+- -2 en Force et Constitution à la création du personnage.~
+@25344 = ~Druide totémique~
 @25485 = ~Ce script permet à un barde d'avoir recours à sa chanson de barde lorsqu'il est inactif. Par défaut, le barde ne chante que lorsqu'un ennemi est à proximité, et cesse lorsqu'il n'y a plus d'adversaire en vue. Appuyer sur la touche "D" permet de modifier ce comportement, et faire en sorte que le barde chante continuellement, ennemi à proximité ou pas. Remarquez qu'un barde ne peut ni attaquer d'adversaire, ni se défendre lorsqu'il est train de chanter sa chanson. Appuyer sur la touche "V" permet de modifier ce comportement, et faire en sorte que le barde cesse de chanter pour attaquer l'ennemi le plus proche. (<script>)
+~
+@26376 = ~Familier
+(Conjuration/Convocation)
+
+Niveau : 1
+Portée : n/a
+Durée : spéciale
+Temps d'incantation : 9
+Zone d'effet : 1 familier
+Jet de sauvegarde : aucun
+
+Ce sort permet au magicien de tenter la convocation d'un familier qui deviendra son aide et son compagnon. Les familiers sont de petites créatures. Une créature agissant en tant que familier peut aider un magicien en envoyant ses pouvoirs sensoriels vers son maître, en lui parlant ou en lui servant de garde, d'éclaireur ou d'espion. Un magicien ne peut avoir qu'un seul familier à la fois, et il ne contrôle pas le type de créature qui sera convoquée par le sort, s'il réussit.
+
+Remarque : Ce sort ne peut être lancé que par le protagoniste.
+
+La créature est toujours plus intelligente que les autres de même type (généralement de 2 ou 3 points d'intelligence), et ses liens avec le magicien lui confèrent une vie particulièrement longue.
+Le magicien garde un lien empathique avec le familier et peut lui transmettre des ordres mentalement.
+Le magicien reçoit un bonus valant la moitié des points de vie du familier. Mais il doit veiller à bien traiter son familier, car s'il meurt, il perd les points de bonus et subit des points de dégâts équivalents à la moitié des points de vie du familier. De plus, si un familier meurt, le magicien perd 1 point de constitution de manière PERMANENTE.
+
+Exemple : Un mage a 12 points de vie et lance le sort Familier. Le diablotin convoqué a 9 points de vie, le mage obtient donc un bonus de 4 points de vie. Il dispose maintenant de 16 points de vie. Si le familier meurt, le mage perd ces 4 points de vie (il revient à 12), 1 point de constitution de manière permanente (ce qui peut entraîner la perte d'autres points de vie), et subit 4 points de dégâts.
+
+Voici une liste des familiers qu'un joueur peut convoquer en fonction de son alignement :
+
+LOYAL-BON, NEUTRE-BON : Pseudo-dragon
+- Points de vie : 12
+- Classe d'armure : 0
+- Résistance à la magie : 35 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d3 dégâts
+- Capacités spéciales : peut lancer Flou une fois par jour ; régénère un point de vie par round ; immunisé au drain de niveau, au sommeil et à la pétrification.
+
+LOYAL-NEUTRE : Furet
+- Points de vie : 12
+- Classe d'armure : 2
+- Résistance à la magie : 35 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d3 dégâts
+- Capacités spéciales : possède 50 % en vol à la tire, 25 % en se cacher dans l'ombre / déplacement silencieux et 20 % en détection des pièges ; immunisé au drain de niveau, au sommeil et à la pétrification.
+
+LOYAL-MAUVAIS : Diablotin
+- Points de vie : 9
+- Classe d'armure : 4
+- Résistance à la magie : 15 %
+- Combat : 1 attaque par round, 17 en TAC0, 1d6 dégâts
+- Capacités spéciales : 100 % de résistance au feu, au froid et à l'électricité ; peut lancer Polymorphisme une fois par jour ; régénère un point de vie par round.
+
+NEUTRE-STRICT : Lapin
+- Points de vie : 12
+- Classe d'armure : 3
+- Résistance à la magie : 45 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d2 dégâts
+- Capacités spéciales : possède 20 % en se cacher dans l'ombre / déplacement silencieux et 40 % en détection des pièges ; 75 % de résistance au feu, au froid et à l'électricité.
+
+NEUTRE-MAUVAIS : Méphite poussiéreux
+- Points de vie : 12
+- Classe d'armure : 8
+- Résistance à la magie : 10 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d2 dégâts
+- Capacités spéciales : 100 % de résistance au feu ; 35 % de résistance aux dégâts tranchants, perforants et projectiles ; peut lancer Poussière de verre deux fois par jour ; régénère un point de vie par round ; immunisé au drain de niveau, au sommeil et à la pétrification.
+
+CHAOTIQUE-BON : Dragon fée
+- Points de vie : 12
+- Classe d'armure : 6
+- Résistance à la magie : 25 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d2 dégâts
+- Capacités spéciales : peut lancer Image-miroir une fois par jour ; immunisé au drain de niveau, au sommeil et à la pétrification.
+
+CHAOTIQUE-NEUTRE : Chat
+- Points de vie : 12
+- Classe d'armure : 2
+- Résistance à la magie : 35 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d3 dégâts
+- Capacités spéciales : possède 15 % en vol à la tire et 65 % en se cacher dans l'ombre / déplacement silencieux ; immunisé au drain de niveau, au sommeil et à la pétrification.
+
+CHAOTIQUE-MAUVAIS : Quasit
+- Points de vie : 12
+- Classe d'armure : 4
+- Résistance à la magie : 15 %
+- Combat : 2 attaques par round, 15 en TAC0, 1d6 dégâts
+- Capacités spéciales : 100 % de résistance au feu, au froid et à l'électricité ; peut lancer Horreur une fois par jour ; régénère un point de vie par round.~
+@26440 = ~Immobilisation des morts-vivants
+(Nécromancie)
+
+Niveau : 3
+Portée : 10,5 mètres
+Durée : 2 rounds par niveau
+Temps d'incantation : 3
+Zone d'effet : 1 créature et tout ennemi dans un rayon de 3 mètres
+Jet de sauvegarde : annule
+
+Ce sort immobilise 1d4 créatures mortes-vivantes. Ses effets sont centrés sur la victime choisie par le magicien. Tout ennemi se trouvant dans un rayon de 3 mètres autour de la cible est également affecté. Ceux qui réussissent leur jet de sauvegarde échappent totalement aux effets du sort. Les créatures ainsi immobilisées ne peuvent ni bouger ni parler, mais restent conscientes de ce qui se passe autour d'elles et peuvent continuer à utiliser toutes les capacités ne nécessitant ni la parole, ni un déplacement quelconque. L'immobilisation n'empêche pas la dégradation de la santé due aux blessures.
 ~
 @31856 = ~Activez cette option si vous souhaitez que la couleur des cercles des membres du groupe corresponde à la couleur principale du personnage.~
 @32341 = ~CHAMAN : Les Chamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Chamans sont plus spirituels que primitifs. Ils puisent directement dans les énergies qui circulent à travers la terre et l'air, à travers les plantes et les animaux, et même à travers les morts, et ils façonnent ces énergies pour obéir à leur volonté. Leur capacité d'invoquer des esprits puissants comme gardiens et défenseurs, en est un parfait exemple. Partagé entre les deux mondes, les Chamans favorisent l'équilibre à la domination.
@@ -21611,3 +21962,41 @@ Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits dispo
 - Ne peut pas être bi-classé ou multi-classé
 - Aucune forteresse. Le Chaman n'est pas éligible pour une forteresse (Cela concerne uniquement la Campagne the Shadows of Amn dans Baldu's Gate II: Enhanced Edition.)
 - Dés de vie : d10~
+@32346 = ~PRÊTRE DE TYR : Tyr est la divinité de la justice et de la loi. Ses principales préoccupations sont le châtiment des criminels et la promotion de la loi et du bien dans le monde. La croyance en la justice rendue par l'exercice bienveillant de la force, ou du moins la vigilance armée, est sa raison d'être. Tyr est une divinité d'importance dans le panthéon Féérûnien grâce à sa position de leader de la Triade, un trio de dieux d'alignement loyal-bon qui représentent chacun les concepts de courage, de justice, de persévérance, de devoir, d'obéissance, d'honneur, de soulagement de la souffrance, et, dans une certaine mesure, de martyre vertueux.
+
+Avantages :
+- 'Exaltation' une fois par jour tous les 5 niveaux (une utilisation au niveau 1).
+
+EXALTATION : Ce sort permet au prêtre de porter secours à une personne autre que lui-même. En touchant la cible, il la guérit de tout effet de peur, de sommeil, de débilité mentale, d'inconscience, d'ébriété, de rage et de confusion. En outre, la cible est protégée de tous les effets précédemment décrits pendant un tour.
+
+- 'Faveur divine' une fois par jour tous les 10 niveaux (une utilisation au niveau 1).
+
+FAVEUR DIVINE : Ce sort fait bénéficier au lanceur d'un bonus de +1 aux jets d'attaque et de dégâts tous les 3 niveaux de prêtre pendant deux rounds.
+
+Inconvénients :
+- Doit être d'alignement loyal-bon, neutre-bon ou loyal-neutre.~
+@103077 = ~DISCIPLE DU DRAGON : Les Disciples du dragon sont de puissants ensorceleurs qui possèdent un ancêtre dragon parmi leur ascendance. Leur affinité naturelle avec la magie fait ressortir cet héritage draconique, et leur permet de lancer de puissants sortilèges tout en développant des capacités similaires à celles des dragons.
+
+Avantages :
+- Dés de vie : d6.
+- Niveau 1 : Bonus de +1 à la Classe d'armure.
+- Niveau 3 : Attaque de souffle une fois par jour.
+
+ATTAQUE DE SOUFFLE : Le Disciple du dragon crache une flamme qui mesure 9 mètres de longueur. Le souffle inflige 3d8 dégâts de feu à toutes les créatures prises dans le cône de 140 degrés.
+
+- Niveau 4 : 25 % de résistance au feu.
+- Niveau 5 : Bonus de +1 à la Classe d'armure et à la Constitution.
+- Niveau 6 : Les dégâts de l'attaque de souffle augmentent jusqu'à 4d8.
+- Niveau 8 : 50 % de résistance au feu.
+- Niveau 9 : Les dégâts de l'attaque de souffle augmentent jusqu'à 5d8.
+- Niveau 10 : Bonus de +1 à la Classe d'armure.
+- Niveau 12 : Les dégâts de l'attaque de souffle augmentent jusqu'à 6d8.
+- Niveau 12 : 75 % de résistance au feu.
+- Niveau 15 : Les dégâts de l'attaque de souffle augmentent jusqu'à 7d8.
+- Niveau 15 : Bonus de +1 à la Classe d'armure et à la Constitution.
+- Niveau 16 : 100 % de résistance au feu.
+- Niveau 18 : Les dégâts de l'attaque de souffle augmentent jusqu'à 8d8.
+- Niveau 20 : Bonus de +1 à la Classe d'armure.
+
+Inconvénients :
+- Lance un sort de moins par niveau et par jour que l'ensorceleur.~

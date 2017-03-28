@@ -4,3 +4,16 @@
 	STRING_SET ~95130~ @25485	// BARD0 script description
 	STRING_SET ~25213~ @24301	// Assassin kit
 	STRING_SET ~103060~ @32341	// shaman kit
+	STRING_SET ~9550~ @9550		// Humans
+	STRING_SET ~53191~ @24204	// Half-orcs
+	STRING_SET ~25203~ @24285	// wizard slayer
+	STRING_SET ~25209~ @24298	// Archer
+	STRING_SET ~25198~ @25344	// totemic druid qui a été traduit par chaman !
+	STRING_SET ~93786~ @32346	// prêtre de tyr: l'un des sorts a été renommé d'exaltation à acclamation entre tob et bgee en us!
+	STRING_SET ~25227~ @24312	// Avenger kit
+	STRING_SET ~74304~ @103077	// Dragon disciple, bizarrement c'est en fr dans le fichier us ?!!!
+	STRING_SET ~45889~ @26376	// desc sort familier
+	STRING_SET ~12172~ @12172	// Sleep: bg2ee: visual range, bgee: 60ft, probablement la même chose, 60ft ça fait 20m quand même...
+	STRING_SET ~12177~ @12177	// Fireball, juste des mots de liaison qui changent...
+	STRING_SET ~32375~ @26440	// Hold undead desc
+	STRING_SET ~12179~ @12179	// Lightning bolt : portée + longue dans bgee ?! (120 ft + 30/niveau contre 70ft !)
