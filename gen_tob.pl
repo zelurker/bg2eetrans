@@ -3,13 +3,14 @@
 use strict;
 use v5.20;
 
-my (%us,%tob);
+my (%us,%tob,%fr);
 read_tra("us.tra",\%us);
 read_tra("tob_us.tra",\%tob);
+read_tra("bg2eetrans/language/fr_fr/dialogtob.tra",\%fr);
 my %out;
 my ($min,$max) = (200000,0);
 foreach (keys %us) {
-	if ($tob{$_}) {
+	if ($tob{$_} && !$fr{$_}) {
 		my $s = $_;
 		my $bg = 200000;
 		foreach (@{$tob{$s}}) { # on garde l'indice le + petit trouvé parce que certaines chaines ne sont pas traduites dans la vf de tob !
@@ -27,7 +28,7 @@ foreach (keys %us) {
 }
 my @fr;
 open(F,"<bg2eetrans/tob.tph") || die "can't read tob.tph !\n";
-open(G,">tob2.tph") || die "can't create tob2.tph\n";
+open(G,">tob.tph") || die "can't create tob2.tph\n";
 say G "// tob.tph : automatically generated, exact matches only !";
 say G "// (ignoring ponctuation)";
 say G "";
@@ -72,6 +73,12 @@ sub read_tra {
 		$_ = lc($_);
 		s/[,;!\?\:\.]/ /g;
 		s/ +/ /g;
+		s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
+		s/ would've / would have /g;
+		s/ gotta / got to /g;
+		s/'ve / have /g;
+		s/ (the|a) / /g; # un article qui saute des fois...
+		s/ that / who /g;
 		if (/^\@(\d+) += (.+)/s) {
 			if (!$$hash{$2}) {
 				$$hash{$2} = [$1];

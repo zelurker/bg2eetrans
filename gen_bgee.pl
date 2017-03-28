@@ -43,23 +43,29 @@ say G "// bgee.tph : automatically generated, exact matches only !";
 say G "// (ignoring ponctuation)";
 say G "";
 foreach (sort { $a <=> $b } keys %out) {
-	if ($fr[$out{$_}] !~ /(This|It's|what|No )/i) {
-		say F sprintf("\@%-5d",$_)," = $fr[$out{$_}]";
-		say G "STRING_SET ~$_~ \@$_";
-#	} elsif ($out{$_} == 32341) {
-#		my $truc = $fr[$out{$_}];
-#		say "rejeté sur $truc\n";
-#		die "this\n" if ($truc =~ /This/i);
-#		die "its\n" if ($truc =~ /It's/i);
-#		die "what\n" if ($truc =~ /what/i);
-#		die "no\n" if ($truc =~ /no /i);
+	my $num = $_;
+	# un peu merdique, on reconvertit la chaine sortie de fr pour vérifier
+	# qu'elle st bien différente de la chaine d'origine et donc traduite !
+	# Y a un sacré paquet de chaines anglaise dans la traduction officielle
+	# fr de bgee en fait !
+	$_ = lc($fr[$out{$num}]);
+	s/[,;!\?\:\.]/ /g;
+	s/ +/ /g;
+	s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
+	s/ would've / would have /g;
+	s/ gotta / got to /g;
+	s/'ve / have /g;
+	s/ (the|a) / /g; # un article qui saute des fois...
+	s/ that / who /g;
+	if ($_ eq "~~" || !$us{$_}) {
+		say F sprintf("\@%-5d",$num)," = $fr[$out{$num}]";
+		say G "STRING_SET ~$num~ \@$num";
 	}
 }
 # pas de string_set pour les manual ils sont déjà indiqués !
 foreach (sort { $a <=> $b } keys %manual) {
-	if ($fr[$manual{$_}] !~ /(This|It's|what|No )/i) {
-		say F sprintf("\@%-5d",$_)," = $fr[$manual{$_}]";
-	}
+	# et on ne vérifie pas que c'est traduit vu que c'est du manuel
+	say F sprintf("\@%-5d",$_)," = $fr[$manual{$_}]";
 }
 close(F);
 close(G);
@@ -81,6 +87,11 @@ sub read_tra {
 		s/[,;!\?\:\.]/ /g;
 		s/ +/ /g;
 		s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
+		s/ would've / would have /g;
+		s/ gotta / got to /g;
+		s/'ve / have /g;
+		s/ (the|a) / /g; # un article qui saute des fois...
+		s/ that / who /g;
 		if (/^\@(\d+) += (.+)/s) {
 			if (!$$hash{$2}) {
 				$$hash{$2} = [$1];

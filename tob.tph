@@ -8371,7 +8371,7 @@
 	STRING_SET ~8373~ @8368	// Exact match
 	STRING_SET ~8374~ @8359	// Exact match
 	STRING_SET ~8375~ @8355	// Exact match
-//	STRING_SET ~8376~ @8376	// Likeliness 86.7
+	STRING_SET ~8376~ @8376	// un " is " qui manque !
 	STRING_SET ~8377~ @8377	// Exact match
 	STRING_SET ~8378~ @8378	// Exact match
 	STRING_SET ~8379~ @8379	// Exact match
@@ -8707,7 +8707,7 @@
 	STRING_SET ~8709~ @8709	// Exact match
 	STRING_SET ~8710~ @8710	// Exact match
 	STRING_SET ~8711~ @8711	// Exact match
-//	STRING_SET ~8712~ @8712	// Likeliness 51.5
+	STRING_SET ~8712~ @8712	// gen_tob.pl prev: 8712 / 8712
 	STRING_SET ~8713~ @8713	// Exact match
 	STRING_SET ~8714~ @8714	// Exact match
 	STRING_SET ~8715~ @8715	// Exact match
@@ -9162,7 +9162,7 @@
 	STRING_SET ~9164~ @9164	// Exact match
 	STRING_SET ~9165~ @9165	// Very likely 100.0
 	STRING_SET ~9166~ @9166	// Exact match
-//	STRING_SET ~9167~ @9167	// Likeliness 88.6
+	STRING_SET ~9167~ @9167	// gen_tob.pl prev: 9167 / 9167
 	STRING_SET ~9168~ @9168	// Exact match
 	STRING_SET ~9169~ @9169	// Exact match
 	STRING_SET ~9170~ @9170	// Exact match
@@ -14363,7 +14363,7 @@
 	STRING_SET ~14404~ @14404	// Exact match
 	STRING_SET ~14405~ @14405	// Exact match
 	STRING_SET ~14406~ @14406	// Exact match
-	STRING_SET ~14407~ @14407	// Exact match
+	STRING_SET ~14407~ @13991	// gen_tob.pl prev: 14407 / 14407
 	STRING_SET ~14408~ @14408	// Exact match
 	STRING_SET ~14409~ @14409	// Exact match
 	STRING_SET ~14410~ @14410	// Exact match
@@ -16329,7 +16329,7 @@
 	STRING_SET ~16382~ @16382	// Very likely 99.9
 	STRING_SET ~16383~ @16383	// Exact match
 	STRING_SET ~16384~ @16384	// Exact match
-	STRING_SET ~16385~ @16385	// Exact match
+	STRING_SET ~16385~ @16381	// gen_tob.pl prev: 16385 / 16385
 	STRING_SET ~16386~ @16386	// Exact match
 	STRING_SET ~16387~ @16387	// Very likely 99.8
 	STRING_SET ~16388~ @16388	// Exact match
@@ -22872,7 +22872,7 @@
 	STRING_SET ~22945~ @22945	// Very likely 97.5
 	STRING_SET ~22946~ @30	// gen_tob.pl prev: 22946 / 22946
 	STRING_SET ~22947~ @30	// gen_tob.pl prev: 22947 / 22947
-//	STRING_SET ~22948~ @22948	// Likeliness 69.6
+	STRING_SET ~22948~ @22948	// gen_tob.pl prev: 22948 / 22948
 	STRING_SET ~22949~ @22949	// Exact match
 	STRING_SET ~22950~ @22950	// Exact match
 	STRING_SET ~22951~ @30	// gen_tob.pl prev: 22951 / 22951
@@ -33896,7 +33896,7 @@
 	STRING_SET ~34059~ @34059	// Very likely 99.9
 	STRING_SET ~34060~ @34060	// Exact match
 	STRING_SET ~34061~ @34061	// Exact match
-//	STRING_SET ~34062~ @34062	// Likeliness 87.2
+	STRING_SET ~34062~ @34062	// gen_tob.pl prev: 34062 / 34062
 	STRING_SET ~34063~ @34063	// Exact match
 	STRING_SET ~34064~ @34064	// Exact match
 	STRING_SET ~34065~ @34065	// Very likely 99.9
@@ -35781,7 +35781,7 @@
 	STRING_SET ~35954~ @35954	// Exact match
 	STRING_SET ~35955~ @35955	// Exact match
 	STRING_SET ~35956~ @35956	// Exact match
-//	STRING_SET ~35957~ @35957	// Likeliness 75.4
+	STRING_SET ~35957~ @35957	// gen_tob.pl prev: 35957 / 35957
 	STRING_SET ~35958~ @35958	// Very likely 96.9
 	STRING_SET ~35959~ @35959	// Exact match
 	STRING_SET ~35960~ @35960	// Exact match
@@ -35817,7 +35817,7 @@
 	STRING_SET ~35990~ @35990	// Exact match
 	STRING_SET ~35991~ @35991	// Exact match
 	STRING_SET ~35992~ @35992	// Very likely 99.9
-//	STRING_SET ~35993~ @35993	// Likeliness 76.4
+	STRING_SET ~35993~ @35993	// gen_tob.pl prev: 35993 / 35993
 	STRING_SET ~35994~ @35994 // revalidated by check2.pl !
 	STRING_SET ~35995~ @35995	// Very likely 99.9
 	STRING_SET ~35996~ @35996	// Exact match
@@ -38482,7 +38482,7 @@
 	STRING_SET ~38658~ @38658	// Exact match
 	STRING_SET ~38659~ @38659	// Exact match
 	STRING_SET ~38660~ @38659	// Exact match
-//	STRING_SET ~38661~ @38661	// Likeliness 87.8
+	STRING_SET ~38661~ @38661	// gen_tob.pl prev: 38661 / 38661
 	STRING_SET ~38662~ @38662	// Exact match
 	STRING_SET ~38663~ @38663	// Exact match
 	STRING_SET ~38664~ @38664	// Exact match
@@ -41865,7 +41865,7 @@
 	STRING_SET ~42074~ @42074	// Very likely 99.9
 	STRING_SET ~42075~ @42075	// Very likely 99.9
 	STRING_SET ~42076~ @42076	// Exact match
-//	STRING_SET ~42077~ @42077	// Likeliness 54.2
+	STRING_SET ~42077~ @42077	// gen_tob.pl prev: 42077 / 42077
 	STRING_SET ~42078~ @42078	// Very likely 99.9
 	STRING_SET ~42079~ @42079	// Exact match
 	STRING_SET ~42080~ @42080	// Exact match
@@ -42286,7 +42286,7 @@
 	STRING_SET ~42495~ @42495	// Exact match
 	STRING_SET ~42496~ @42496	// Exact match
 	STRING_SET ~42497~ @42497	// Exact match
-	STRING_SET ~42498~ @42498	// Exact match
+	STRING_SET ~42498~ @42469	// gen_tob.pl prev: 42498 / 42498
 	STRING_SET ~42499~ @42499	// Exact match
 	STRING_SET ~42500~ @42500	// Exact match
 	STRING_SET ~42501~ @42477	// Exact match
@@ -43660,7 +43660,7 @@
 	STRING_SET ~43870~ @43870	// Exact match
 	STRING_SET ~43871~ @43871	// Exact match
 	STRING_SET ~43872~ @43872	// Very likely 99.9
-//	STRING_SET ~43873~ @43873	// Likeliness 82.7
+	STRING_SET ~43873~ @43873	// gen_tob.pl prev: 43873 / 43873
 	STRING_SET ~43874~ @43874	// Exact match
 	STRING_SET ~43875~ @43875	// Exact match
 	STRING_SET ~43876~ @43876	// Very likely 100.0
@@ -45552,13 +45552,13 @@
 	STRING_SET ~45769~ @45769	// Exact match
 	STRING_SET ~45770~ @45770	// Exact match
 	STRING_SET ~45771~ @45771	// Very likely 99.8
-	STRING_SET ~45772~ @45772	// Exact match
+	STRING_SET ~45772~ @45731	// gen_tob.pl prev: 45772 / 45772
 	STRING_SET ~45773~ @45773	// Very likely 99.9
 	STRING_SET ~45774~ @45540	// Exact match
 	STRING_SET ~45775~ @22412	// Exact match
 	STRING_SET ~45776~ @22430	// Exact match
 	STRING_SET ~45777~ @16067	// gen_tob.pl prev: 45777 / 25277
-	STRING_SET ~45778~ @45772	// Exact match
+	STRING_SET ~45778~ @45731	// gen_tob.pl prev: 45778 / 45772
 	STRING_SET ~45779~ @45779	// Exact match
 	STRING_SET ~45780~ @45780	// Exact match
 	STRING_SET ~45781~ @45781	// Exact match
@@ -46002,7 +46002,7 @@
 	STRING_SET ~46222~ @46222	// Exact match
 	STRING_SET ~46223~ @46223	// Exact match
 	STRING_SET ~46224~ @46224	// Exact match
-//	STRING_SET ~46225~ @46225	// Likeliness 53.5
+	STRING_SET ~46225~ @46225	// gen_tob.pl prev: 46225 / 46225
 	STRING_SET ~46226~ @46226	// Exact match
 	STRING_SET ~46227~ @46227	// Exact match
 	STRING_SET ~46228~ @46228	// Exact match
@@ -49118,7 +49118,7 @@
 	STRING_SET ~49342~ @49342	// Very likely 99.9
 	STRING_SET ~49343~ @49343	// Very likely 99.8
 	STRING_SET ~49344~ @49344	// Exact match
-	STRING_SET ~49345~ @49345	// Exact match
+	STRING_SET ~49345~ @24762	// gen_tob.pl prev: 49345 / 49345
 	STRING_SET ~49346~ @20819	// Exact match
 	STRING_SET ~49347~ @49347	// Exact match
 	STRING_SET ~49348~ @49348	// Exact match
@@ -51979,7 +51979,7 @@
 	STRING_SET ~52210~ @52210	// Very likely 95.8
 	STRING_SET ~52211~ @52211	// Very likely 90.8
 	STRING_SET ~52212~ @52212	// Exact match
-//	STRING_SET ~52213~ @52213	// Likeliness 52.8
+	STRING_SET ~52213~ @52213	// gen_tob.pl prev: 52213 / 52213
 	STRING_SET ~52214~ @52214	// Very likely 99.7
 	STRING_SET ~52215~ @52215	// Very likely 99.9
 	STRING_SET ~52216~ @52216	// Exact match
@@ -53195,7 +53195,7 @@
 	STRING_SET ~53427~ @53427	// Very likely 100.0
 	STRING_SET ~53428~ @53428	// Exact match
 	STRING_SET ~53429~ @53429	// Exact match
-//	STRING_SET ~53430~ @53430	// Likeliness 74.8
+	STRING_SET ~53430~ @53430	// gen_tob.pl prev: 53430 / 53430
 	STRING_SET ~53431~ @53431	// Exact match
 	STRING_SET ~53432~ @53432	// Exact match
 	STRING_SET ~53433~ @53433	// Exact match
@@ -53213,7 +53213,7 @@
 	STRING_SET ~53445~ @53445	// Exact match
 	STRING_SET ~53446~ @53446	// Very likely 99.8
 	STRING_SET ~53447~ @53447	// Very likely 99.9
-//	STRING_SET ~53448~ @53448	// Likeliness 72.8
+	STRING_SET ~53448~ @53448	// gen_tob.pl prev: 53448 / 53448
 	STRING_SET ~53449~ @53449	// Exact match
 	STRING_SET ~53450~ @53450	// Exact match
 	STRING_SET ~53451~ @53451	// Very likely 99.9
@@ -53409,7 +53409,7 @@
 	STRING_SET ~53642~ @53642	// Very likely 99.9
 	STRING_SET ~53643~ @53643	// Exact match
 	STRING_SET ~53644~ @53644	// Exact match
-	STRING_SET ~53645~ @53645	// Exact match
+	STRING_SET ~53645~ @53632	// gen_tob.pl prev: 53645 / 53645
 	STRING_SET ~53646~ @53646	// Very likely 100.0
 	STRING_SET ~53647~ @53647	// Exact match
 	STRING_SET ~53648~ @53648	// Very likely 99.9
@@ -53778,7 +53778,7 @@
 	STRING_SET ~54012~ @54012	// Very likely 99.9
 	STRING_SET ~54013~ @54013	// Exact match
 	STRING_SET ~54014~ @54014	// Very likely 99.9
-	STRING_SET ~54015~ @54015	// Exact match
+	STRING_SET ~54015~ @52888	// gen_tob.pl prev: 54015 / 54015
 	STRING_SET ~54016~ @54016	// Exact match
 	STRING_SET ~54017~ @54017	// Exact match
 	STRING_SET ~54018~ @54018	// Exact match
@@ -53926,7 +53926,7 @@
 	STRING_SET ~54160~ @54008	// Exact match
 	STRING_SET ~54161~ @54161	// Very likely 99.9
 	STRING_SET ~54162~ @54014	// Exact match
-	STRING_SET ~54163~ @54015	// Exact match
+	STRING_SET ~54163~ @52888	// gen_tob.pl prev: 54163 / 54015
 	STRING_SET ~54164~ @54164	// Exact match
 	STRING_SET ~54165~ @54009	// Exact match
 	STRING_SET ~54166~ @54166	// Very likely 99.9
@@ -55218,7 +55218,7 @@
 	STRING_SET ~55455~ @55455	// Exact match
 	STRING_SET ~55456~ @55456	// Exact match
 	STRING_SET ~55457~ @55457	// Exact match
-//	STRING_SET ~55458~ @55458	// Likeliness 85.1
+	STRING_SET ~55458~ @55458	// gen_tob.pl prev: 55458 / 55458
 //	STRING_SET ~55459~ @55459	// Likeliness 64.9
 	STRING_SET ~55460~ @55460	// Exact match
 	STRING_SET ~55461~ @55461	// Exact match
@@ -55465,7 +55465,7 @@
 	STRING_SET ~55702~ @55702	// Exact match
 	STRING_SET ~55703~ @55703	// Very likely 99.9
 	STRING_SET ~55704~ @55704	// Very likely 99.9
-	STRING_SET ~55705~ @55705	// Exact match
+	STRING_SET ~55705~ @48405	// gen_tob.pl prev: 55705 / 55705
 	STRING_SET ~55706~ @55706	// Exact match
 	STRING_SET ~55707~ @55707	// Very likely 99.9
 	STRING_SET ~55708~ @55708	// Exact match
@@ -59471,12 +59471,12 @@
 	STRING_SET ~59722~ @59722	// Exact match
 //	STRING_SET ~59723~ @59723	// Likeliness 88.5
 	STRING_SET ~59724~ @59724 // revalidated by check2.pl !
-//	STRING_SET ~59725~ @59730	// Likeliness 81.6
+	STRING_SET ~59725~ @59725	// gen_tob.pl prev: 59725 / 59730
 	STRING_SET ~59726~ @59726	// Exact match
 	STRING_SET ~59727~ @59727	// Very likely 99.8
 	STRING_SET ~59728~ @59728	// Very likely 94.0
 	STRING_SET ~59729~ @59729	// Exact match
-//	STRING_SET ~59730~ @59725	// Likeliness 79.3
+	STRING_SET ~59730~ @59730	// gen_tob.pl prev: 59730 / 59725
 	STRING_SET ~59731~ @59731	// Very likely 93.8
 	STRING_SET ~59732~ @59732	// Very likely 100.0
 	STRING_SET ~59733~ @59712	// Exact match
@@ -62115,7 +62115,7 @@
 	STRING_SET ~62386~ @62386	// Very likely 99.9
 	STRING_SET ~62387~ @62387	// Exact match
 	STRING_SET ~62388~ @62388	// Exact match
-//	STRING_SET ~62389~ @62389	// Likeliness 64.2
+	STRING_SET ~62389~ @62389	// gen_tob.pl prev: 62389 / 62389
 	STRING_SET ~62390~ @62390	// Exact match
 	STRING_SET ~62391~ @62391	// Very likely 99.8
 	STRING_SET ~62392~ @62392	// Exact match
@@ -72235,7 +72235,7 @@
 	STRING_SET ~72543~ @72543	// Very likely 99.7
 	STRING_SET ~72544~ @72544	// Very likely 100.0
 	STRING_SET ~72545~ @72545	// Very likely 99.6
-	STRING_SET ~72546~ @72547 // revalidated by check2.pl !
+	STRING_SET ~72546~ @72546	// gen_tob.pl prev: 72546 / 72547
 	STRING_SET ~72547~ @72547	// Exact match
 	STRING_SET ~72548~ @72548	// Exact match
 	STRING_SET ~72549~ @72549	// Very likely 99.4
@@ -73506,7 +73506,7 @@
 	STRING_SET ~73818~ @73818	// Very likely 99.9
 	STRING_SET ~73819~ @73819	// Very likely 100.0
 	STRING_SET ~73820~ @73820	// Exact match
-//	STRING_SET ~73821~ @840	// Likeliness 59.2
+	STRING_SET ~73821~ @73821	// gen_tob.pl prev: 73821 / 840
 	STRING_SET ~73822~ @73822	// Exact match
 	STRING_SET ~73823~ @73823	// Exact match
 	STRING_SET ~73824~ @73824	// Very likely 99.9
@@ -74120,6 +74120,7 @@
 	STRING_SET ~95944~ @15402	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~95967~ @448	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96003~ @16422	// gen_tob.pl prev: 74106 / 74106
+	STRING_SET ~96016~ @24959	// gen_tob.pl prev: 96030 / 9749
 	STRING_SET ~96030~ @9749	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96032~ @16422	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96053~ @6684	// gen_tob.pl prev: 74106 / 74106
@@ -74131,6 +74132,7 @@
 	STRING_SET ~96146~ @448	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96163~ @21655	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96232~ @30222	// gen_tob.pl prev: 74106 / 74106
+	STRING_SET ~96341~ @999	// gen_tob.pl prev: 96348 / 59451
 	STRING_SET ~96348~ @59451	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96403~ @5069	// gen_tob.pl prev: 74106 / 74106
 	STRING_SET ~96429~ @11319	// gen_tob.pl prev: 74106 / 74106
