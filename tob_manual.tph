@@ -11,6 +11,9 @@
 // c'est pour ça que c'est pas detecté automatiquement, vaut donc mieux le
 // faire en manuel.
 	STRING_SET ~20857~ @20857
+
+	STRING_SET ~20863~ @20863	// Gaelan : 2 corrections dans le texte us
+	STRING_SET ~38782~ @38782	// Dialogue pendant video chap2 à cause d'un "Uh," !
 	STRING_SET ~34171~ @34171	// armes à 2 mains dans le gui
 	STRING_SET ~53680~ @53680
 	STRING_SET ~53681~ @53681
