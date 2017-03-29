@@ -29,9 +29,9 @@ foreach (keys %us) {
 my @fr;
 open(F,"<bg2eetrans/tob.tph") || die "can't read tob.tph !\n";
 open(G,">tob.tph") || die "can't create tob2.tph\n";
-say G "// tob.tph : automatically generated, exact matches only !";
-say G "// (ignoring ponctuation)";
-say G "";
+#say G "// tob.tph : automatically generated, exact matches only !";
+#say G "// (ignoring ponctuation)";
+#say G "";
 my ($key,$last,$val);
 foreach (sort { $a <=> $b } keys %out) {
 	my $num = $_;
@@ -43,6 +43,8 @@ foreach (sort { $a <=> $b } keys %out) {
 				$val = $2;
 				print G $last if ($key < $num);
 				last if ($key >= $num);
+			} else {
+				print G;
 			}
 		}
 	}
