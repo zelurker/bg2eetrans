@@ -16191,13 +16191,19 @@
 	STRING_SET ~16232~ @16231	// Exact match
 	STRING_SET ~16233~ @16233	// Exact match
 	STRING_SET ~16234~ @16234	// Exact match
-	STRING_SET ~16240~ @16240	// updated by perl script
-//	STRING_SET ~16241~ @34442	// Likeliness 74.4
-//	STRING_SET ~16242~ @73148	// Likeliness 65.8
-	STRING_SET ~16243~ @16243	// updated by perl script
-	STRING_SET ~16244~ @16244	// updated by perl script
-	STRING_SET ~16245~ @16245	// updated by perl script
-	STRING_SET ~16246~ @16246	// updated by perl script
+// 16235 à 16247 : voix de persos homme5
+	STRING_SET ~16235~ @16235
+	STRING_SET ~16236~ @16236
+	STRING_SET ~16237~ @16237
+	STRING_SET ~16240~ @16240
+	STRING_SET ~16241~ @16241
+	STRING_SET ~16242~ @16242
+	STRING_SET ~16243~ @16243
+	STRING_SET ~16244~ @16244
+	STRING_SET ~16245~ @16245
+	STRING_SET ~16246~ @16246
+	STRING_SET ~16247~ @16247
+
 //	STRING_SET ~16252~ @32857	// Likeliness 60.2
 	STRING_SET ~16253~ @16253	// updated by perl script
 	STRING_SET ~16254~ @16254	// updated by perl script

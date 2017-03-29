@@ -3,6 +3,7 @@
 // 199 : édité à la main
 	STRING_SET ~199~  @199
 	STRING_SET ~2843~  @2843
+	STRING_SET ~15721~ @15721 // entrée de journal corrigée en us
 	STRING_SET ~20044~ @20044
 	STRING_SET ~20059~ @20059
 	STRING_SET ~34171~ @34171	// armes à 2 mains dans le gui
