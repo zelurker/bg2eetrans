@@ -23,7 +23,11 @@ foreach (keys %us) {
 		$min = $bg if ($bg < $min);
 		$max = $bg if ($bg > $max);
 		foreach (@{$us{$s}}) {
-			$out{$_} = $bg;
+			# super erreur de traduc sur 27484 :
+			# us = il
+			# fr = il semblerait que ça ne soit pas verrouillé, après tout
+			# aucune idée pourquoi !!!
+			$out{$_} = $bg if ($_ != 27484);
 		}
 	}
 }
