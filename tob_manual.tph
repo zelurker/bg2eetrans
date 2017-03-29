@@ -6,6 +6,11 @@
 	STRING_SET ~15721~ @15721 // entrée de journal corrigée en us
 	STRING_SET ~20044~ @20044
 	STRING_SET ~20059~ @20059
+// 20857 : réponse en arrivant dans les bas quartiers, au début du jeu.
+// C'est la seule fois où <HESHE> dans bg2 est remplacé par <PRO_HESHE>
+// c'est pour ça que c'est pas detecté automatiquement, vaut donc mieux le
+// faire en manuel.
+	STRING_SET ~20857~ @20857
 	STRING_SET ~34171~ @34171	// armes à 2 mains dans le gui
 	STRING_SET ~53680~ @53680
 	STRING_SET ~53681~ @53681
