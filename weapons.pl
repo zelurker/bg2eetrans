@@ -360,6 +360,8 @@ sub trans_eq() {
 	s/vs. missile and piercing attacks/contre les armes perforantes/;
 	s/vs. crushing attacks/contre les armes contondantes/;
 	s/an extra/et encore/;
+	s/Negative Plane Protection/Protection contre le plan négatif/i;
+	s/Physical damage resistance/Résistance aux dégâts physiques/i;
 	s/Damage/Dégâts/;
 	s/Polymorph into a wolf at will/Métamorphose en loup à volonté/;
 	s/Non-detectable by magical means such as Detect Invisibility and scrying/indétectable par des moyens magiques tels que détection de l'invisiblité ou scrutation/i;
