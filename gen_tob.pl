@@ -71,14 +71,19 @@ sub read_tra {
 		}
 		chomp;
 		$_ = lc($_);
-		s/[,;!\?\:\.]/ /g;
+		s/[,;!\?\:\.]/ /g if (/[a-z]/i);
 		s/ +/ /g;
 		s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
+		s/(^|\~) /$1/m if (!/^\~ \~/); # en début de ligne aussi...
+		s/\~\[/\~ \[/; # espace entre fin de phrase et [
 		s/ would've / would have /g;
 		s/ gotta / got to /g;
 		s/'ve / have /g;
 		s/ (the|a) / /g; # un article qui saute des fois...
 		s/ that / who /g;
+		s/'ey /hey /g;
+		s/ wanna / want to /g;
+		s/ ya / you /g;
 		if (/^\@(\d+) += (.+)/s) {
 			if (!$$hash{$2}) {
 				$$hash{$2} = [$1];

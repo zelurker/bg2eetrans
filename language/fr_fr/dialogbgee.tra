@@ -714,6 +714,7 @@ Poids : 4~
 @4573  = ~Attendez un instant ! Cette décision n'est pas de votre ressort !~ [BELTT07]
 @4583  = ~Arrêtez-vous, vous n'irez nulle-part ! Ceci est notre pont, vous devez payez pour le traverser !~ [GNARL01]
 @4608  = ~Joueurs~
+@4611  = ~Et voilà.~
 @4626  = ~~
 @4627  = ~par nom~
 @4628  = ~par date~
@@ -4363,6 +4364,7 @@ Qu'à Nashkel je gis !
 @10748 = ~~
 @10750 = ~~
 @10763 = ~Oui, maître.~
+@10784 = ~Peut-être.~
 @10790 = ~Le journal de Sarevok~
 @10791 = ~Le journal de Sarevok~
 @10803 = ~Il a été mis fin à la session multijoueurs.~
@@ -12609,6 +12611,7 @@ Poids : 3~
 @32087 = ~Vous êtes déjà en spirale.~
 @32088 = ~Clerc Déchu~
 @32090 = ~Prêtre de Lathandre Déchu~
+@32092 = ~n'a rien à vous dire.~
 @32099 = ~~
 @32101 = ~~
 @32102 = ~~
@@ -14314,6 +14317,7 @@ RAGE : Pendant 5 rounds, la rage confère un bonus de +4 en Constitution et en 
 @46620 = ~Très bien, je ferai ce que vous demandez.~
 @46631 = ~Non, je n'ai pas changé d'avis.~
 @46829 = ~Eh bien, dans ce cas, je pars.~
+@46834 = ~*soupir*~
 @46858 = ~a gagné <EXPERIENCEAMOUNT> points d'expérience de quête.~
 @46888 = ~La Serre de Rashad +2~
 @46943 = ~Non, merci.~
@@ -14744,7 +14748,7 @@ Poids : 2
 @57060 = ~~
 @57077 = ~Cri de demi-liche~
 @57205 = ~Taverne~
-@57233 = ~Que voulez-vous ?~
+@57233 = ~Qu'est-ce que vous voulez ?~
 @57246 = ~Qui êtes-vous ?~
 @57251 = ~~
 @57292 = ~Bien sûr, qu'est-ce que tu proposes ?~
@@ -17126,7 +17130,7 @@ Comme le sort de 5ème niveau Rappel à la vie, la Résurrection ramène un pers
 @72351 = ~Ascète~
 @72352 = ~Ascète~
 @72381 = ~C'est tout pour le moment.~
-@72383 = ~Bonjour à vous.~
+@72383 = ~Bonne journée.~
 @72423 = ~Peu importe.~
 @72441 = ~Salut.~
 @72585 = ~La petite créature vous regarde avec méfiance, et après avoir examiné la situation, elle se retourne pour vous faire admirer son arrière train avant de lentement s'approcher de <CHARNAME>.~
@@ -17233,7 +17237,7 @@ Comme le sort de 5ème niveau Rappel à la vie, la Résurrection ramène un pers
 @72693 = ~Non, rien. Avançons.~
 @72712 = ~Vous ne pouvez plus poser davantage de pièges ici.~
 @72761 = ~Des forces inconnues vous empêchent d'utiliser cette faculté.~
-@72780 = ~Que voulez-vous ?~
+@72780 = ~Qu'est-ce que vous voulez ?~
 @72803 = ~~
 @72868 = ~Vision véritable~
 @72873 = ~Ce sort figure déjà dans votre livre.~
@@ -17802,7 +17806,7 @@ Remarque : si la résolution de votre écran est inférieure à 1024x768, cette 
 @96750 = ~Avez-vous besoin de vous reposer ?~
 @96751 = ~Très bien.~
 @96802 = ~Que voulez-vous dire ?~
-@96820 = ~Que voulez-vous ?~
+@96820 = ~Qu'est-ce que vous voulez ?~
 @96847 = ~Très bien.~
 @96875 = ~Bien sûr.~
 @96912 = ~Vous ne pouvez pas partir pendant l'initiation.~
@@ -17814,7 +17818,7 @@ Remarque : si la résolution de votre écran est inférieure à 1024x768, cette 
 @97109 = ~Aïe...~
 @97124 = ~En quoi est-ce que ça vous regarde ?~
 @97137 = ~Non.~
-@97495 = ~Que voulez-vous ?~
+@97495 = ~Qu'est-ce que vous voulez ?~
 @97497 = ~Je vois.~
 @97528 = ~Comme vous voudrez.~
 @97562 = ~Comme vous voudrez.~
@@ -17826,7 +17830,7 @@ Remarque : si la résolution de votre écran est inférieure à 1024x768, cette 
 @97725 = ~Je suis désolé que vous le preniez ainsi.~
 @97760 = ~Comme vous voudrez.~
 @97779 = ~Bien sûr.~
-@97784 = ~Que voulez-vous ?~
+@97784 = ~Qu'est-ce que vous voulez ?~
 @97809 = ~Très bien.~
 @97814 = ~Très bien.~
 @97865 = ~Merci... Ahhhh...~
@@ -17859,6 +17863,10 @@ Remarque : si la résolution de votre écran est inférieure à 1024x768, cette 
 @99249 = ~Quoi ?~
 @99306 = ~Bien sûr.~
 @99349 = ~Bon.~
+@99387 = ~Évite l'effet de <RESOURCE>~
+@99388 = ~Évite l'effet~
+@99389 = ~Non affecté par les effets de <RESOURCE>~
+@99390 = ~~
 @99393 = ~chevalier noir déchu~
 @99454 = ~Adieu.~
 @99531 = ~Bon.~
@@ -18175,7 +18183,7 @@ Poids : 1~
 @102159 = ~Non.~
 @102181 = ~Bien sûr.~
 @102218 = ~Cela me désole, d'entendre cela.~
-@102227 = ~Que voulez-vous ?~
+@102227 = ~Qu'est-ce que vous voulez ?~
 @102234 = ~Alors, d'accord.~
 @102251 = ~Dites-m'en plus.~
 @102273 = ~Très bien.~
@@ -18520,6 +18528,79 @@ Zone d'effet : spéciale
 Jet de sauvegarde : demi-dégâts
 
 En lançant ce sort, le magicien libère une décharge électrique puissante qui inflige 1d6 points de dégâts par niveau du jeteur de sorts (dégâts maximum de 10d6) à chaque créature située dans la zone d'effet. Un jet de sauvegarde contre les sorts réussi permet de n'encaisser que la moitié des dégâts (arrondis à la fraction inférieure). L'éclair prend naissance à une portée et une hauteur déterminées par le magicien et s'étend sur une ligne directe partant du magicien. Par exemple, si un éclair de 12 mètres est lancé à 54 mètres du magicien, son extrémité la plus éloignée est à 66 mètres (54 +12). Si l'éclair rencontre un mur, il rebondit jusqu'à ce qu'il atteigne sa longueur complète.~
+@12183 = ~Mur de feu
+(Invocation)
+
+Niveau : 4
+Portée : champ visuel du lanceur
+Durée : 1 round par niveau
+Temps d'incantation : 4
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Le sort de mur de feu engendre un rideau immobile de feu magique de couleur chatoyante (violet ou bleu tirant sur le rouge). Le mur prend la forme d'un carré opaque de flammes pouvant atteindre 6 mètres de côté par niveau du jeteur de sorts, ou d'un anneau pouvant atteindre 3 mètres de rayon plus 1,5 mètres par tranche de deux niveaux d'expérience du magicien. Dans les deux cas, le mur de feu a une hauteur de 6 mètres.
+Le mur de feu doit être vertical par rapport au jeteur de sorts. Il inflige 2d6 points de dégâts, plus 1 point de dégâts par niveau du jeteur de sorts, à toute créature le traversant. Les créatures particulièrement sensibles au feu peuvent subir des dégâts supplémentaires et les morts-vivants subissent le double des dégâts. Le mur dure un round par niveau.~
+@12193 = ~Hâte
+(Transmutation)
+
+Niveau : 3
+Portée : 4,50 mètres
+Durée : 3 rounds + 1 round par niveau
+Temps d'incantation : 3
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : aucun
+
+Au lancement de ce sort, toutes les créatures affectées voient leur vitesse de mouvements doublés, gagnent un bonus d'initiative de -2, et peuvent porter une attaque supplémentaire par round. Ainsi, une créature se déplaçant normalement à 6 et portant une attaque par round se déplacera à 12 et attaquera deux fois par round. Par contre, les incantations et les effets de sort ne peuvent pas être accélérés. Ce sort affectera toutes les créatures se trouvant dans la zone d'effet désignée au moment du lancement du sort (ainsi, une créature quittant la zone sera toujours accélérée, tandis qu'une créature entrant dans la zone après le lancement du sort ne sera pas affectée). Ce sort n'est pas cumulatif avec lui-même ou avec tout autre effet magique similaire. Notez que ce sort annule les effets du sort de lenteur.~
+@12206 = ~Sanctuaire
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : contact
+Durée : 1 tour
+Temps d'incantation : 4
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Lorsque le prêtre jette un sort de sanctuaire, il disparaît aux yeux de ses opposants. C'est comme s'il devenait invisible. Tant qu'il est protégé par ce sort, le sujet ne peut pas entreprendre une action offensive directe sans rompre le sort ; en revanche, il peut employer des sorts autres que les sorts d'attaque ou entreprendre une action quelconque, dans la mesure où il ne viole pas l'interdiction des actions offensives. Ainsi, un prêtre protégé par une barrière magique peut par exemple guérir des blessures ou prononcer une bénédiction. Il ne peut pas jeter un sort à une autre créature sans mettre un terme à ce sort.~
+@12217 = ~Cantique
+(Conjuration/Convocation)
+
+Niveau : 2
+Sphère : Combat
+Portée : personnelle
+Durée : 5 rounds
+Temps d'incantation : 9
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : aucun
+
+Avec le sort de cantique, le prêtre attire une faveur spéciale sur lui-même et sur son groupe, et inflige des dégâts à ses ennemis. Lorsque le sort de cantique se termine, tous les jets d'attaque et de dégâts, ainsi que les jets de sauvegarde effectués par les amis du prêtre situés dans la zone d'effet, reçoivent un bonus de +1, alors que les ennemis du prêtre écopent d'un malus de -1. Les cantiques multiples ne sont pas cumulatifs.~
+@12218 = ~Mur de feu
+(Conjuration/Convocation)
+
+Niveau : 4
+Sphère : Élémentaire (feu)
+Portée : champ visuel du lanceur
+Durée : spéciale
+Temps d'incantation : 8
+Zone d'effet : spéciale
+Jet de sauvegarde : annule
+
+Le sort du mur de feu fait apparaître un rideau immobile brûlant d'un feu magique aux couleurs chatoyantes (jaune-vert ou ambre). Il crée un mur de flammes opaque haut de 6 mètres ou une zone circulaire d'un rayon de 3 mètres + 1,5 mètre par groupe de deux niveaux d'expérience du prêtre.
+Le sort doit être jeté de telle sorte que le mur de feu soit en position verticale par rapport au jeteur de sorts. Le mur inflige 4d4 points de dégâts, plus 1 point de dégâts par niveau du jeteur de sorts, à toute créature qui le traverse. Les créatures très sensibles au feu peuvent subir des dégâts plus importants, et les morts-vivants subissent toujours des dégâts deux fois plus importants que la normale. Notez qu'il est difficile d'encercler des créatures mobiles avec un mur de feu au moment de sa création ; en effet, un jet de sauvegarde réussi leur permet d'éviter le mur, tandis que la vitesse et la direction de leur déplacement déterminent de quel côté du mur elles se retrouvent.~
+@12221 = ~Élimination des invisibilités
+(Divination)
+
+Niveau : 3
+Sphère : Divination
+Portée : personnelle
+Durée : instantanée
+Temps d'incantation : 8
+Zone d'effet : rayon de 270 mètres
+Jet de sauvegarde : aucun
+
+Toutes les créatures invisibles situées dans la zone d'effet perdent leur invisibilité. Cela concerne les créatures se trouvant sous les effets d'un sort de Sanctuaire, d'Invisibilité majeure, de l'invisibilité de la Porte d'ombre, de Double illusoire, etc...
+~
 @24204 = ~DEMI-ORQUES : Les demi-orques sont issus de l'union de parents humains et orques. Ils sont aussi grands que les humains, mais un peu plus lourds à cause de leur masse musculaire. Leur peau verdâtre, leur front fuyant, leurs mâchoires saillantes, leurs dents proéminentes et leur corps massif les rendent faciles à reconnaître. Les demi-orques sont tolérés sur la Côte des Épées car, contrairement au Nord, les habitants de ce royaume n'ont pas subi d'attaques orques depuis plusieurs siècles. Les demi-orques sont connus pour leur grande force.
 
 Les demi-orques bénéficient des traits suivants :

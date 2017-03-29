@@ -49,14 +49,19 @@ foreach (sort { $a <=> $b } keys %out) {
 	# Y a un sacré paquet de chaines anglaise dans la traduction officielle
 	# fr de bgee en fait !
 	$_ = lc($fr[$out{$num}]);
-	s/[,;!\?\:\.]/ /g;
+	s/[,;!\?\:\.]/ /g if (/[a-z]/i);
 	s/ +/ /g;
 	s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
+	s/(^|\~) /$1/m if ($_ !~ /\= ~ ~/); # en début de ligne aussi...
+	s/\~\[/\~ \[/; # espace entre fin de phrase et [
 	s/ would've / would have /g;
 	s/ gotta / got to /g;
 	s/'ve / have /g;
 	s/ (the|a) / /g; # un article qui saute des fois...
 	s/ that / who /g;
+	s/'ey /hey /g;
+	s/ wanna / want to /g;
+	s/ ya / you /g;
 	if ($_ eq "~~" || !$us{$_}) {
 		say F sprintf("\@%-5d",$num)," = $fr[$out{$num}]";
 		say G "STRING_SET ~$num~ \@$num";
@@ -84,14 +89,19 @@ sub read_tra {
 		}
 		chomp;
 		$_ = lc($_);
-		s/[,;!\?\:\.]/ /g;
+		s/[,;!\?\:\.]/ /g if (/[a-z]/i);
 		s/ +/ /g;
 		s/ \n/\n/g; # juste un espace en fin de chaine, et ça différencie quelques entrées !!!
+		s/(^|\~) /$1/m if ($_ !~ /\= ~ ~/); # en début de ligne aussi...
+		s/\~\[/\~ \[/; # espace entre fin de phrase et [
 		s/ would've / would have /g;
 		s/ gotta / got to /g;
 		s/'ve / have /g;
 		s/ (the|a) / /g; # un article qui saute des fois...
 		s/ that / who /g;
+		s/'ey /hey /g;
+		s/ wanna / want to /g;
+		s/ ya / you /g;
 		if (/^\@(\d+) += (.+)/s) {
 			if (!$$hash{$2}) {
 				$$hash{$2} = [$1];

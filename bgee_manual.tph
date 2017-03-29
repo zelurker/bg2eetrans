@@ -1,5 +1,11 @@
 // Recovered for dialogEnBG2EEpatch20131121_corrige.tra, from dialogFrBGEEpatch20131220.tra
 // Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
+	STRING_SET ~12183~ @12183	// remise en forme wall of fire
+	STRING_SET ~12193~ @12193	// texte retouché (desc hate)
+	STRING_SET ~12206~ @12206	// sanctuary : range 0 vs range touch
+	STRING_SET ~12217~ @12217	// Chant : duration 1 turn vs duration 5 rounds
+	STRING_SET ~12218~ @12218	// wall of fire prêtre, remise en forme + saving throw none vs saving throw neg
+	STRING_SET ~12221~ @12221	// invisibility purge : range 0 vs visual rangge
 	STRING_SET ~77525~ @31856	// Color marker option
 	STRING_SET ~95130~ @25485	// BARD0 script description
 	STRING_SET ~25213~ @24301	// Assassin kit
