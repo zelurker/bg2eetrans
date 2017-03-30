@@ -27,7 +27,7 @@ foreach (keys %us) {
 			# us = il
 			# fr = il semblerait que ça ne soit pas verrouillé, après tout
 			# aucune idée pourquoi !!!
-			$out{$_} = $bg if ($_ != 27484);
+			$out{$_} = $bg if ($_ != 27484 && $_ != 15912);
 		}
 	}
 }
