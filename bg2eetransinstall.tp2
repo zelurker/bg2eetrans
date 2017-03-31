@@ -27,11 +27,7 @@ DESIGNATED 1001
 REQUIRE_PREDICATE (FILE_EXISTS ~lang/fr_fr/bg2eetrans.mrk~) @1001003 // Initialisation failed or a translation file is already present
 REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
 
-LOAD_TRA ~bg2eetrans/language/fr_fr/dialogtob.tra~
-INCLUDE  ~bg2eetrans/tob.tph~
-
-// Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
-INCLUDE ~bg2eetrans/tob_manual.tph~
+STRING_SET_RANGE #0 #74106 USING ~bg2eetrans/language/fr_fr/dialogtob.tra~
 
 // Texts recovered from BGEE
 BEGIN @1000003
