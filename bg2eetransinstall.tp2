@@ -28,6 +28,8 @@ REQUIRE_PREDICATE (FILE_EXISTS ~lang/fr_fr/bg2eetrans.mrk~) @1001003 // Initiali
 REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
 
 STRING_SET_RANGE #0 #74106 USING ~bg2eetrans/language/fr_fr/dialogtob.tra~
+LOAD_TRA ~bg2eetrans/language/fr_fr/dialogtob.tra~
+INCLUDE  ~bg2eetrans/upper_tob.tph~
 
 // Texts recovered from BGEE
 BEGIN @1000003
