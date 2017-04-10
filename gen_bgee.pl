@@ -27,7 +27,9 @@ foreach (keys %us) {
 			# us = il
 			# fr = il semblerait que ça ne soit pas verrouillé, après tout
 			# aucune idée pourquoi !!!
-			$out{$_} = $bg if ($_ != 27484 && $_ != 15912);
+			# pour 15914, 16050 et 16052 c'est "Tavern Patron" -> Patron de
+			# la taverne, au lieu de client !!!
+			$out{$_} = $bg if (!grep /^$_$/,(27484, 15912, 15914, 16050, 16052));
 		}
 	}
 }
