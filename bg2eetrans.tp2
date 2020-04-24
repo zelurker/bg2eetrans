@@ -52,7 +52,7 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_fr~ ) THEN BEGIN
 	{'fr_fr', 1212, 1213, 'Français'},~
 		UNLESS ~'fr_fr'~
 	// Add the translated interface file
-	COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
+	COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~override/L_fr_FR.lua~
 END
 
 COPY ~bg2eetrans/empty.itm~ ~lang/%LANGUAGE%/bg2eetrans.mrk~
